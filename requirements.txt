@@ -6,3 +6,4 @@ torch
 numpy
 matplotlib
 ipykernel
+pandas

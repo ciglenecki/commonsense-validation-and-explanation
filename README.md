@@ -34,7 +34,7 @@ The task is to directly test whether a system can differentiate natural language
 
 Create and populate the [virtual environment](https://docs.python.org/3/library/venv.html#:~:text=A%20virtual%20environment%20is%20a,part%20of%20your%20operating%20system). Simply put, the virtual environment allows you to install Python packages for this project only (which you can easily delete later). This way, we won't clutter your global Python packages.
 
-**Step 1: Execute the following command:**
+**Step 1: Create virtual environment and install the packages**
 
 ```bash
 sudo apt-get install python3-venv
@@ -43,6 +43,8 @@ source venv/bin/activate
 sleep 2
 pip install -r requirements-dev.txt
 pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_trf # more accurate!
 ```
 
 **Step 2: Install current directory as a editable Python module:**
