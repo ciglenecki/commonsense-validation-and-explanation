@@ -89,6 +89,6 @@ empty for now
 <table>
   <tr>
     <td align="center"><a href="https://github.com/mirtamoslavac"><img src="https://avatars.githubusercontent.com/u/72082543?v=4" width="100px;" alt=""/><br /><sub><b>Mirta Moslavac</b></sub><br /></td>
-   <td align="center"><a><img href="https://github.com/rokogrbelja" src="https://avatars.githubusercontent.com/u/54799615?v=4" width="100px;" alt=""/><br /><sub><b>Roko Grbelja</b></sub></a><br /></td>
+   <td align="center"><a href="https://github.com/rokogrbelja"><img src="https://avatars.githubusercontent.com/u/54799615?v=4" width="100px;" alt=""/><br /><sub><b>Roko Grbelja</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/ciglenecki"><img src="https://avatars.githubusercontent.com/u/12819849?v=4" width="100px;" alt=""/><br /><sub><b>Matej Ciglenečki</b></sub></a><br /></td>
 </table>
