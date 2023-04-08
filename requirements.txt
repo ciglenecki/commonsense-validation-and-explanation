@@ -1,0 +1,8 @@
+setuptools
+wheel
+
+spacy
+torch
+numpy
+matplotlib
+ipykernel

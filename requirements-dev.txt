@@ -1,0 +1,8 @@
+# packages for formating/statically validating python code
+flake8
+black
+isort
+pylint
+mypy
+pre-commit # hooks for applying linters on commit
+pyrootutils     # standardizing the project root setup
