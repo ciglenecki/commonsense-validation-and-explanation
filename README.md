@@ -1,6 +1,7 @@
 # 🤔 Commonsense Validation and Explanation (ComVE)
 
 Competition website: https://competitions.codalab.org/competitions/21080
+
 Docs notes: https://docs.google.com/document/d/1nUB-Nw2rtMeh8_mq2UHAL_kMZck2WKo8MhI1Jexj5tk/edit
 
 ## Introduction
