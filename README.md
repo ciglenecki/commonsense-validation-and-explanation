@@ -2,6 +2,8 @@
 
 Competition website: https://competitions.codalab.org/competitions/21080
 
+Docs notes: https://docs.google.com/document/d/1nUB-Nw2rtMeh8_mq2UHAL_kMZck2WKo8MhI1Jexj5tk/edit
+
 ## Introduction
 The task is to directly test whether a system can differentiate natural language statements that make sense from those that do not make sense. There exist three subtasks:
 1. The first task is to choose from two natural language statements with similar wordings which one makes sense and which one does not make sense
@@ -87,6 +89,6 @@ empty for now
 <table>
   <tr>
     <td align="center"><a href="https://github.com/mirtamoslavac"><img src="https://avatars.githubusercontent.com/u/72082543?v=4" width="100px;" alt=""/><br /><sub><b>Mirta Moslavac</b></sub><br /></td>
-   <td align="center"><a><img src="https://i.stack.imgur.com/frlIf.png" width="100px;" alt=""/><br /><sub><b>Roko Grbelja</b></sub></a><br /></td>
+   <td align="center"><a href="https://github.com/rokogrbelja"><img src="https://avatars.githubusercontent.com/u/54799615?v=4" width="100px;" alt=""/><br /><sub><b>Roko Grbelja</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/ciglenecki"><img src="https://avatars.githubusercontent.com/u/12819849?v=4" width="100px;" alt=""/><br /><sub><b>Matej Ciglenečki</b></sub></a><br /></td>
 </table>
