@@ -24,4 +24,4 @@ zip ../submission.zip *
 cd ..
 ```
 
-If you need any help, feel free to post at https://groups.google.com/d/forum/semeval-2020-task-4-all.  
+If you need any help, feel free to post at https://groups.google.com/d/forum/semeval-2020-task-4-all.

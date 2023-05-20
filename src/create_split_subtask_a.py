@@ -16,11 +16,9 @@ def create_subtask_a_df(
     csv_data: Path = PATH_TASK_A_DATA, csv_labels=PATH_TASK_A_LABELS
 ):
     """Concatenate the data and labels csv files for subtask A.
-    Flatten the data so that each row is a sentence and its label.
-    New label:
-        doesn't make sense: 0
-        makes sense:        1
-    Create sentence length column.
+
+    Flatten the data so that each row is a sentence and its label. New label:     doesn't make
+    sense: 0     makes sense:        1 Create sentence length column.
     """
     df_data = pd.read_csv(csv_data)
     df_labels = pd.read_csv(csv_labels, names=["id", "label"])
@@ -41,7 +39,10 @@ def create_subtask_a_df(
 
 
 def main():
-    """Create clean train and test csv files for subtask A. The dataset is split so that ids are not shared between the train and test sets."""
+    """Create clean train and test csv files for subtask A.
+
+    The dataset is split so that ids are not shared between the train and test sets.
+    """
     csv_data = PATH_TASK_A_DATA
     csv_labels = PATH_TASK_A_LABELS
     df = create_subtask_a_df(csv_data, csv_labels)

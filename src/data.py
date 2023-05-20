@@ -18,7 +18,8 @@ def concat_csvs_columnwise(csv1: Path, csv2: Path) -> pd.DataFrame:
 def train_test_split_by_group(
     df: pd.DataFrame, group_name="id", test_size=DEFAULT_TEST_SIZE
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
-    """Split the dataframe into train and test sets so that values from group_name column (id) are not shared between the two sets."""
+    """Split the dataframe into train and test sets so that values from group_name column (id) are
+    not shared between the two sets."""
     train_ids, test_ids = train_test_split(df[group_name].unique(), test_size=test_size)
 
     # Create the train and test dataframes

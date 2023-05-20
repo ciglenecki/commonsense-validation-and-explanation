@@ -5,14 +5,19 @@ Competition website: https://competitions.codalab.org/competitions/21080
 Docs notes: https://docs.google.com/document/d/1nUB-Nw2rtMeh8_mq2UHAL_kMZck2WKo8MhI1Jexj5tk/edit
 
 ## Introduction
+
 The task is to directly test whether a system can differentiate natural language statements that make sense from those that do not make sense. There exist three subtasks:
+
 1. The first task is to choose from two natural language statements with similar wordings which one makes sense and which one does not make sense
+
 	```
 	Task: Which statement of the two is against common sense?
 	Statement1: He put a turkey into the fridge.
 	Statement2: He put an elephant into the fridge.
 	```
+
 2. The second task is to find the key reason from three options why a given statement does not make sense
+
 	```
 	Task: Select the most corresponding reason why this statement is against common sense.
 	Statement: He put an elephant into the fridge.
@@ -20,7 +25,9 @@ The task is to directly test whether a system can differentiate natural language
 	B: Elephants are usually white while fridges are usually white.
 	C: An elephant cannot eat a fridge.
 	```
+
 3. The third task asks machine to generate the reasons and we use BLEU to evaluate them. Examples of all tasks can be found on the competition website.
+
 	```
 	Task: Generate the reason why this statement is against common sense and we will use BELU to evaluate it.
 	Statement: He put an elephant into the fridge.
@@ -67,7 +74,6 @@ pre-commit install
 
 To remove pre-commit run: `rm -rf .git/hooks`
 
-
 ## 📁 Directory structure
 
 | Directory                 | Description                                         |
@@ -82,7 +88,6 @@ To remove pre-commit run: `rm -rf .git/hooks`
 ## 📋 Notes
 
 empty for now
-
 
 ## 🏆 Team members
 

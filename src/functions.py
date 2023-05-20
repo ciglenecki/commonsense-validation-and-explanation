@@ -15,7 +15,8 @@ def drop_duplicate_columns(df: pd.DataFrame) -> pd.DataFrame:
 
 
 class SocketConcatenator:
-    """Merges multiple sockets (files) into one enabling writing to multiple sockets/files at once."""
+    """Merges multiple sockets (files) into one enabling writing to multiple sockets/files at
+    once."""
 
     def __init__(self, *files):
         self.files = files
