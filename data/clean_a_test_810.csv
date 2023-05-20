@@ -1,0 +1,811 @@
+id,sentence,label,sentence_length
+3,money can be used for buying cars,1,7
+3,money can be used for buying stars,0,7
+4,New York is located in the northeastern part of USA,1,10
+4,USA is located in the northeastern part of New York,0,10
+7,his mother became satisfied after he got good grades in the math exam,1,13
+7,his mother became angry after he got good grades in the math exam,0,13
+13,this bucket can hold one gallon of water,1,8
+13,this basket can hold one gallon of water,0,8
+17,most people become wiser after drinking a lot alcohol,0,9
+17,most people become more stupid after drinking a lot alcohol,1,10
+26,Alice became joyful after felt left out by her friends,0,10
+26,Alice became sad after felt left out by her friends,1,10
+38,sugar is the main ingredient in candy,1,7
+38,plastic is the main ingredient in candy,0,7
+41,sailing is an expensive hobby,1,5
+41,walking is an expensive hobby,0,5
+45,children have fun in the amusement park,1,7
+45,children have fun in the cemetery,0,6
+48,mum is cooking a delicious meal in the kitchen,1,9
+48,mum is cooking a delicious meal in the bedroom,0,9
+58,i park my car in the living room,0,8
+58,i park my car in the garage,1,7
+63,smoking is bad for health,1,5
+63,smoking is good for health,0,5
+70,the farm is destroyed by a tomato,0,7
+70,the farm is destroyed by a tornado,1,7
+72,i like her songs because she is a good singer,1,10
+72,i like her songs because she is a good cook,0,10
+74,the moon is a planet of the solar system,0,9
+74,the earth is a planet of the solar system,1,9
+78,the ancients used a compass as a guidance,1,8
+78,the ancients used a satellite as a guidance,0,8
+84,a sea is a large body of salt water,1,9
+84,a sea is a large body of sweet water,0,9
+87,Tom buys his girlfriend a bunch of roses on Valentine's Day,1,11
+87,Tom buys his girlfriend a bunch of carnations on Valentine's Day,0,11
+89,there are many fishes in the desert,0,7
+89,there are many fishes in the sea,1,7
+90,i fly to New York to see the Statue of Liberty,1,11
+90,i fly to Paris to see the Statue of Liberty,0,10
+94,she goes traveling on holidays,1,5
+94,she goes traveling on weekdays,0,5
+97,Jim practices running on the playground every morning,1,8
+97,Jim practices running on the bed every morning,0,8
+99,he opens a storybook and begins to read,1,8
+99,he opens a storybook and begins to cook,0,8
+102,she begins working for relaxation,0,5
+102,she begins reading for relaxation,1,5
+110,he is allergic to cats so he keeps a dog as a pet,1,13
+110,he is allergic to cats so he keeps a cat as a pet,0,13
+119,i eat apples because of my illness,0,7
+119,i take medicine because of my illness,1,7
+121,Mary asks questions when taking an exam to get a high score,0,12
+121,Mary answers questions when taking an exam to get a high score,1,12
+122,human beings shake tails to express their happiness,0,8
+122,dogs shake tails to express their happiness,1,7
+130,children take music classes in the gym,0,7
+130,children take music classes in the music room,1,8
+145,they speak in English in order to communicate with each other,1,11
+145,they speak in c++ in order to communicate with each other,0,11
+151,she wears glasses because of nearsightedness,1,6
+151,she wears clothes because of nearsightedness,0,6
+158,pumpkins can be made into delicious dishes for people to eat,1,11
+158,pumpkins can be made into carriages for people to ride on,0,11
+172,the lake will be frozen in winter,1,7
+172,the lake will be frozen in summer,0,7
+173,she washes her computer with warm water,0,7
+173,she washes her clothes with warm water,1,7
+190,Bob looks painful because he hurts his fingers,1,8
+190,Bob looks delightful because he hurts his fingers,0,8
+193,I graduated from college at the age of 22,1,9
+193,I graduated from college at the age of 3,0,9
+198,Frank goes to the bank to save people,0,8
+198,Frank goes to the bank to save money,1,8
+218,"On my birthday, we lighted up birthday candles for celebration",1,10
+218,"On my birthday, we lighted up birthday cakes for celebration",0,10
+219,the solar system is located in Earth,0,7
+219,Earth is located in the solar system,1,7
+227,"In the dark, I turn on the light to read a book",1,12
+227,"In the dark, I turn off the light to read a book",0,12
+230,Riko drops a steel cup from the desk and the cup breaks into pieces,0,14
+230,Riko drops a glass cup from the desk and the cup breaks into pieces,1,14
+233,Max stays close to the campfire to keep warm,1,9
+233,Max stays close to the campfire to keep cool,0,9
+250,Being involved in a car accident can ease your life,0,10
+250,Being involved in a car accident can ruin your life,1,10
+251,It is dark outside because it is ten am,0,9
+251,It is dark outside because it is one am,1,9
+260,My daughter needs bra after growing up,1,7
+260,My son needs bra after growing up,0,7
+262,If you feel cool you may sweat,0,7
+262,If you feel hot you may sweat,1,7
+263,I go to school for playing the computer game,0,9
+263,I go to school for learning,1,6
+264,I slipped on a rock,0,5
+264,I slipped on a banana peel,1,6
+267,a deaf person took part in a concert,0,8
+267,an elegant woman took part in a concert,1,8
+268,I see a cripple running,0,5
+268,I see a man running,1,5
+274,we should borrow things after returning them,0,7
+274,we should return things after borrowing them,1,7
+277,I want world peace,1,4
+277,I want world war,0,4
+292,milk is made by chicken,0,5
+292,milk is made by cow,1,5
+293,"On Mars, there have many countries",0,6
+293,"On Mars, there are no metropolitan areas",1,7
+294,A student can learn how to read,1,7
+294,A student can't learn his course,0,6
+299,Cancer is a disease,1,4
+299,Cancer can bring happiness to us,0,6
+308,I can hold up a car,0,6
+308,I can hold up a can of soda,1,8
+311,A puzzle can be solved easily,0,6
+311,A puzzle is a challenge,1,5
+313,You can take an airplane to visit England,1,8
+313,You can take your airplane to visit Mars,0,8
+316,A person doesn't want moldy bread,1,6
+316,A person want moldy bread,0,5
+324,Eating is an emotion between people,0,6
+324,Love is an emotion between people,1,6
+326,You are likely to find a folder in a drawer,1,10
+326,You are likely to find a cake in a drawer,0,10
+329,my friends play computer games in the gymnasium,0,8
+329,my friends play soccer ball in the gymnasium,1,8
+334,we can see white clouds and dark clouds in the air,1,11
+334,we can only see white clouds in the air,0,9
+335,I lie on a hamburger in my room,0,8
+335,I eat a hamburger in my room,1,7
+337,people plant seeds and then harvest fruits,1,7
+337,people can harvest fruits without planting seeds,0,7
+339,people can play the violin without learning,0,7
+339,people can play the violin after learning the violin,1,9
+340,no one can learn from books,0,6
+340,people can learn something from books,1,6
+345,I can drink after driving,1,5
+345,I can drive after drinking,0,5
+346,I saw a baby holding a woman.,0,7
+346,I saw a woman holding a baby.,1,7
+348,I can cook any food simply,0,6
+348,I can cook some food simply,1,6
+352,We cut down trees to protect the environment,0,8
+352,We plant trees to protect the environment,1,7
+362,I will find a job if I need money,1,9
+362,I will quit my job if I need money,0,9
+364,I like cakes because I like salty food,0,8
+364,I like cakes because I have a sweet tooth,1,9
+367,I need to eat fruits and vegetables to keep healthy.,1,10
+367,eating fruits and vegetables makes me fat,0,7
+369,I saw a fish breathing in the water.,1,8
+369,I saw a man breathing in the water.,0,8
+373,I drink coffee before I go to bed.,0,8
+373,I drink milk before I go to bed.,1,8
+390,Accidents can happen anywhere,1,4
+390,Accidents are a good thing,0,5
+393,Batteries can power a lantern forever,0,6
+393,Batteries can power a lantern,1,5
+394,A drought happens when insufficient rain falls,1,7
+394,A drought happens when excessive rain falls,0,7
+395,If you want to have a haircut then you should go to a library,0,14
+395,If you want to have a haircut then you should go to a hair salon,1,15
+397,The effect of attending a classical concert is falling asleep,1,10
+397,The effect of attending a classical concert is impetuous,0,9
+401,a person is anxious for undesired things,0,7
+401,A person doesn't want undesired things,1,6
+402,You are likely to find a grape in a fruit bowl,1,11
+402,You are likely to find a potato in a fruit bowl,0,11
+403,Something you find in downtown is a volcano,0,8
+403,Something you find in downtown is a police station,1,9
+405,He took the paper out of the printer and printed it,0,11
+405,He put the paper in the printer and printed it,1,10
+406,taking a walk is good for health in general,1,9
+406,taking a walk is harmful to health in general,0,9
+408,People can make friends in clubs,1,6
+408,People can't make friends in clubs,0,6
+416,Cowardly people hate horror movies,1,5
+416,Cowardly people love horror movies,0,5
+418,He washes clothes in a washing machine,1,7
+418,He washes potatoes in a washing machine,0,7
+423,People can go back to where they are after they circle the earth,1,13
+423,People can't go back to where they are after they circle the earth,0,13
+427,We will get pins and needles from sitting or standing for long periods of time,1,15
+427,We will feel relaxed from sitting or standing for long periods of time,0,13
+433,A man with a big head must be clever,0,9
+433,A man with a big head is not necessarily clever,1,10
+434,Breathing through the nose is healthy,1,6
+434,Breathing through the mouse is healthy,0,6
+436,Waste batteries can be thrown away at will,0,8
+436,Waste batteries can't be thrown away at will,1,8
+438,Smoking is not allowed in public places,1,7
+438,Smoking is allowed in public places,0,6
+442,Dinner should be around one o'clock,0,6
+442,Lunch should be around twelve o'clock,1,6
+445,children need to drink milk before going to school,1,9
+445,children need to drink beer before going to school,0,9
+448,students have to take notes in class,1,7
+448,students have to copy homework in class,0,7
+450,"In the evening, I will eat dinner",1,7
+450,"In the evening, I will eat breakfast",0,7
+468,we take photos of snowflakes in winter,1,7
+468,we take photos of willow catkins in winter,0,8
+474,they search penguins in the Arctic,0,6
+474,they search polar bears in the Arctic,1,7
+479,most plants provide carbon dioxide for the human,0,8
+479,most plants provide oxygen for the human,1,7
+483,People usually grow grey hair when old,1,7
+483,People can grow black hair all the time,0,8
+484,African skin is mostly black,1,5
+484,African skin is mostly white,0,5
+488,All animals are active in winter,0,6
+488,Some animals hibernate,1,3
+494,the Fire has many colors,1,5
+494,the Fire has only one color,0,6
+495,Silverware is good for food,1,5
+495,Silverware is bad for food,0,5
+497,Mineral water is drinkable,1,4
+497,Seawater is drinkable,0,3
+498,We usually hear thunder first and then see lightning,0,9
+498,We usually see lightning first and hear thunder,1,8
+504,There may be a rainbow after the rain,1,8
+504,There may be more polluted after the rain,0,8
+506,Cloth bags can hold water,0,5
+506,Cloth bags can hold money,1,5
+510,a car is a kind of motor vehicle,1,8
+510,a car is a kind of animal,0,7
+515,Peace brings suffering,0,3
+515,War brings suffering,1,3
+518,a pig can lay eggs,0,5
+518,a bird can lay eggs,1,5
+521,nurses teach students,0,3
+521,teachers teach students,1,3
+525,I sang at the party,1,5
+525,I study at the party,0,5
+534,I like mathematics so I majored in mathematics,1,8
+534,I like art so I majored in mathematics,0,8
+537,the paper is made from wood,1,6
+537,the paper is made from soil,0,6
+544,the firstborn child is youngest and other children are older,0,10
+544,The firstborn child is oldest and other children are younger,1,10
+554,Ripe apples are hot,0,4
+554,Ripe apples are sweet,1,4
+560,The moon is brighter than the sun,0,7
+560,The sun is brighter than the moon,1,7
+561,People usually sit in chairs,1,5
+561,People usually lie on chairs,0,5
+568,Everyone can eat peanuts,0,4
+568,Most people can eat peanuts,1,5
+570,Most people with cancer die,1,5
+570,Only a few people with cancer die,0,7
+572,Hens can give birth to chickens directly,0,7
+572,Hens can't give birth to chickens directly,1,7
+575,Most people are afraid of snakes,1,6
+575,Most people like snakes,0,4
+578,People can't find others lying,0,5
+578,People can find others lying sometimes,1,6
+585,We put the clothes in the washing machine,1,8
+585,We put food in the washing machine,0,7
+592,The sun ceases to shine at night,0,7
+592,The sun shines all the time,1,6
+593,the diabetic cannot eat candy at will,1,7
+593,the Diabetic can eat candy at will,0,7
+595,You can use the air conditioner without electricity,0,8
+595,You can't use the air conditioner without electricity,1,8
+597,Trees can have no bark,0,5
+597,A tree cannot live without its bark,1,7
+599,the sun won't stay on all day,1,7
+599,the sun will stay on all day,0,7
+600,Most people don't like mice,1,5
+600,Most people like mice,0,4
+618,apple juice is made of bananas,0,6
+618,apple juice is made of apples,1,6
+625,My hair is too short so I need a haircut,0,10
+625,My hair is too long so I need a haircut,1,10
+627,I'm grazing tigers,0,3
+627,I'm grazing cows,1,3
+628,Working all day is very tiring,1,6
+628,Working all day is very relaxing,0,6
+629,A bed is a comfortable place to sleep,1,8
+629,A table is a comfortable place to sleep,0,8
+636,There is ink in the pen so we can write,1,10
+636,There is water in the pen so we can write,0,10
+645,a ruler can be used to cut things,0,8
+645,a knife can be used to cut things,1,8
+663,Humans usually hate viruses,1,4
+663,Humans usually like viruses,0,4
+664,Those who break the law will be rewarded,0,8
+664,Those who break the law will be punished,1,8
+671,People usually hold umbrellas on cloudy days,0,7
+671,People usually hold umbrellas on rainy days,1,7
+672,Thieves are glad of seeing the police,0,7
+672,Thieves are afraid of seeing the police,1,7
+676,People use electric fans when they are hot,1,8
+676,People use electric fans when they are cold,0,8
+692,spending money is to get happiness,1,6
+692,spending money is to get sadness,0,6
+694,This area is dangerous so you have to be careful,1,10
+694,This area is dangerous so you have to be careless,0,10
+698,musical instruments can be used to play baseball,0,8
+698,musical instruments can be used to perform music,1,8
+706,People celebrate on the day of death,0,7
+706,People celebrate on the day of birth,1,7
+708,Tigers are very common pets,0,5
+708,Dogs are very common pets,1,5
+709,pigs are mammals,1,3
+709,birds are mammals,0,3
+718,He was drunk yesterday so he forgot what had happened,1,10
+718,He was sober yesterday so he forgot what had happened,0,10
+720,the moon is a satellite of the earth,1,8
+720,the sun is a satellite of the earth,0,8
+746,Something you need to do before you go to bed is turning on the lights,0,15
+746,Something you need to do before you go to bed is turning off the lights,1,15
+757,my mother asks me to listen carefully in class,1,9
+757,my mother asks me to play cards in class,0,9
+776,People usually enter houses through doors,1,6
+776,People usually enter houses through windows,0,6
+777,People usually sleep in quiet places,1,6
+777,People usually sleep in noisy places,0,6
+787,Bees usually live in places with few flowers,0,8
+787,Bees usually live in places with plenty of flowers,1,9
+791,we are usually prohibited smoking in Gas stations,1,8
+791,we are usually allowed to smoke in Gas stations,0,9
+802,We wear fewer clothes when the weather gets warmer,1,9
+802,We wear more clothes when the weather gets warmer,0,9
+804,Most of the goods are not free,1,7
+804,Most of the goods are free,0,6
+805,Keys are usually made of metal,1,6
+805,Keys are usually made of plastic,0,6
+810,Copying homework is a good thing,0,6
+810,Copying homework is not a good thing,1,7
+813,The CPU is usually the core of a computer,1,9
+813,The mouse is usually the core of a computer,0,9
+814,It's not good to get x-rays frequently,1,7
+814,It's good to get x-rays frequently,0,6
+816,"When we want to look out the window, we open the curtains",1,12
+816,"When we want to look out the window, we close the curtains",0,12
+824,People can eat a lot of junk food,0,8
+824,People can't eat a lot of junk food,1,8
+828,People usually run without shoes,0,5
+828,People usually run with shoes,1,5
+833,humans are usually cautious of wild tigers,1,7
+833,humans are usually casual to wild tigers,0,7
+852,there are many kinds of plants in Antarctica,0,8
+852,there are many kinds of plants in Africa,1,8
+866,People usually see lightning on sunny days,0,7
+866,People usually see lightning on rainy days,1,7
+874,People can judge the direction by the sun,1,8
+874,People can't judge the direction by the sun,0,8
+875,Businessmen are usually rude to their guests,0,7
+875,Businessmen are usually polite to their guests,1,7
+883,People should wash dirty clothes,1,5
+883,People should wash clean clothes,0,5
+885,People usually like gold,1,4
+885,People hardly like gold,0,4
+889,Children should play with toys,1,5
+889,Children should play with knives,0,5
+892,People need to work on holidays,0,6
+892,People need to work on weekdays,1,6
+893,People usually read books when they walk,0,7
+893,People usually watch the road when they walk,1,8
+897,Some people were born on February twentieth,1,7
+897,Some people were born on February thirtieth,0,7
+902,People usually go to the gym for eating,0,8
+902,People usually go to the gym for exercise,1,8
+904,The temperature during the day is usually lower than at night,0,11
+904,The temperature during the day is usually higher than at night,1,11
+911,we can see tigers in the zoo,1,7
+911,we can see aliens in the zoo,0,7
+914,Books are made of paper,1,5
+914,Books are made of stones,0,5
+917,this land is so barren that trees grow well,0,9
+917,this land is so fertile that trees grow well,1,9
+921,I live in the city for its fresh air,0,9
+921,I live in the countryside for its fresh air,1,9
+924,it is hopeless for you to be admitted by the famous university because you are so outstanding,0,17
+924,it is hopeful for you to be admitted by the famous university because you are so outstanding,1,17
+938,he used fire to cook a meal,1,7
+938,he used water to cook a meal,0,7
+939,he drinks a cup of oil,0,6
+939,he drinks a cup of coffee,1,6
+941,I love eating books,0,4
+941,I love reading books,1,4
+943,he squeezed some lemonade from apples,0,6
+943,he squeezed some lemonade from lemons,1,6
+957,she threw dirty clothes into a washing machine,1,8
+957,she threw clean clothes into a washing machine,0,8
+960,I like to chase after butterflies,1,6
+960,I like to chase after bees,0,6
+961,he kicks a football on the ground,1,7
+961,he kicks a basketball on the ground,0,7
+963,he put on his earphone and listened to the radio,1,10
+963,he put on his eyeglasses and listened to the radio,0,10
+976,running makes me feel full,0,5
+976,running makes me feel hungry,1,5
+980,he started to work at the age of 2,0,9
+980,he started to work at the age of 20,1,9
+981,there are sixty students in this class,1,7
+981,there are sixty teachers in this class,0,7
+986,she made me a cup of tea,1,7
+986,she made me a cup of cookies,0,7
+987,I bought snakes from the supermarket,0,6
+987,I bought snacks from the supermarket,1,6
+1003,the security officer robbed the bank,0,6
+1003,the security officer guarded the bank,1,6
+1005,he put the money into his hat,0,7
+1005,he put the money into his pocket,1,7
+1006,the new album of the singer is released,1,8
+1006,the new movie of the singer is released,0,8
+1021,it took 7 days to receive the email,0,8
+1021,it took 7 seconds to receive the email,1,8
+1027,she put on running shoes before jogging,1,7
+1027,she put off running shoes before jogging,0,7
+1030,the big hand on a watch shows the minute,1,9
+1030,the big hand on a watch shows the day,0,9
+1037,he surfed the sea to check his email,0,8
+1037,he surfed the web to check his email,1,8
+1038,I gave him some review on his future career,0,9
+1038,I gave him some advice on his future career,1,9
+1049,they were not satisfied with each other and got a marriage,0,11
+1049,they were not satisfied with each other and got a divorce,1,11
+1052,I put all my stuff in the drawer to travel,0,10
+1052,I put all my stuff in the luggage to travel,1,10
+1053,he used a blow dryer before he washed his hair,0,10
+1053,he used a blow dryer after he washed his hair,1,10
+1059,he left her a lot of bills in his will,0,10
+1059,he left her a lot of money in his will,1,10
+1060,the little girl tiptoed and rang the bell,1,8
+1060,the little girl squatted and rang the bell,0,8
+1064,the garden of flowers is in the middle of the table,0,11
+1064,the bouquet of flowers is in the middle of the table,1,11
+1074,he pressed the accelerator to slow the car down,0,9
+1074,he pressed the brake to slow the car down,1,9
+1076,he found he had less money after he paid the bill,1,11
+1076,he found he had more money after he paid the bill,0,11
+1080,she is a vegetarian and refuses to eat food,0,9
+1080,she is a vegetarian and refuses to eat meat,1,9
+1082,mark is a pilot and he assembled an aircraft,0,9
+1082,mark is a pilot and he flew an aircraft,1,9
+1089,tina told her dog to clean the apartment,0,8
+1089,tina told her daughter to clean the apartment,1,8
+1095,as a geographer he studied the Earth's surface,1,8
+1095,as a geographer he created the Earth's surface,0,8
+1098,he felt like suiciding and the doctor lent him a gun,0,11
+1098,he felt like suiciding and the doctor lent him a hand,1,11
+1104,the experienced sailor captain the ship,1,6
+1104,the experienced singer captain the ship,0,6
+1106,he put on his shoes to see well enough,0,9
+1106,he put on his eyeglasses to see well enough,1,9
+1107,josh stepped into a seashell when he walked along the beach,0,11
+1107,josh stepped on a seashell when he walked along the beach,1,11
+1108,he walked barefoot over broken glass,0,6
+1108,he walked barefoot over smooth glass,1,6
+1119,josh thought of an idea and wrote a history,0,9
+1119,josh thought of an idea and wrote a story,1,9
+1120,jane drove so fast that she got a movie ticket,0,10
+1120,jane drove so fast that she got a speeding ticket,1,10
+1121,jack called his sick friend to check on her,1,9
+1121,jack ignored his sick friend to check on her,0,9
+1128,tom fell and broke his heart,0,6
+1128,tom fell and broke his arm,1,6
+1130,the shower curtain looks good,1,5
+1130,the shower curtain tastes good,0,5
+1133,judy used an earpick to clean between her teeth,0,9
+1133,judy used a toothpick to clean between her teeth,1,9
+1136,she opened the curtain when she woke up,1,8
+1136,she opened the shower curtain when she woke up,0,9
+1143,paul has a picture taken with two Americas,0,8
+1143,paul has a picture taken with two Americans,1,8
+1148,chris lived at the bus stop,0,6
+1148,chris waited at the bus stop,1,6
+1158,he prevented the car from going on the road,0,9
+1158,he prevented the car from going off the road,1,9
+1161,police officers enjoy eating donuts in an emergency,0,8
+1161,police officers enjoy eating donuts in spare time,1,8
+1177,bees can understand each other's dancing,1,6
+1177,honey can understand each other's dancing,0,6
+1179,sleeping pills keep him warm in the wild,0,8
+1179,sleeping bags keep him warm in the wild,1,8
+1188,he found a bat to play soccer,0,7
+1188,he found a ball to play soccer,1,7
+1199,the dog chased the cat up the tree,0,8
+1199,the dog chased the cat up the sofa,1,8
+1203,"there is a huge, splendid cattle standing on the top of the hill",0,13
+1203,"there is a huge, splendid castle standing on the top of the hill",1,13
+1205,he parked his car in the wrong place so he was asked to sell it,0,15
+1205,he parked his car in the wrong place so he was asked to move it,1,15
+1211,the government built an aircraft roadway in the airport,1,9
+1211,the government built an aircraft roadway in the train station,0,10
+1215,joanna made a pot of chill for dinner,0,8
+1215,joanna made a pot of chili for dinner,1,8
+1216,penguins are birds that cannot fly,1,6
+1216,penguins are fish that cannot fly,0,6
+1219,in windy days everyone had to hold onto their hats,1,10
+1219,in windy days everyone had to hold onto their shoes,0,10
+1221,the boy read the novel aloud to his blind grandfather,0,10
+1221,the boy read the novel aloud to his deaf grandfather,1,10
+1230,the student received detention for his excellent grades,0,8
+1230,the student received a scholarship for his excellent grades,1,9
+1237,the driver made a wrong turn and the trip took a shorter time,0,13
+1237,the driver made a wrong turn and the trip took longer time,1,12
+1241,jason held the door for the woman entering behind him,1,10
+1241,jason held the door for the woman entering before him,0,10
+1248,the woman received an admission after she graduated,0,8
+1248,the woman received a diploma after she graduated,1,8
+1251,the audience booed the comedian off the stage for his humor,0,11
+1251,the audience booed the comedian off the stage for his boredom,1,11
+1258,the student chewing gum in class was forced to swallow it in,0,12
+1258,the student chewing gum in class was forced to spit it out,1,12
+1266,after a religious awakening she began to go to church,1,10
+1266,after a religious awakening she began to travel around,0,9
+1285,he eats a table for dinner,0,6
+1285,he eats a cake for dinner,1,6
+1287,he peels an apple with a knife,1,7
+1287,he peels an apple with cotton,0,6
+1289,Strikes will bring convenience to people's lives,0,7
+1289,Strikes will bring inconvenience to people's lives,1,7
+1301,He pedaled to ride his bicycle,1,6
+1301,he danced to ride his bicycle,0,6
+1304,Today's knowledge is too difficult for me to understand,1,9
+1304,Today's knowledge is too simple for me to understand,0,9
+1311,Something that might happen as a consequence of answering questions is you are dead,0,14
+1311,Something that might happen as a consequence of answering questions is you are correct,1,14
+1312,You would go to a film because you want to be entertained,1,12
+1312,You would go to a film because you want to be nervous,0,12
+1317,harder tires grip better in wet weather,0,7
+1317,Softer tires grip better in wet weather,1,7
+1319,Often do not eat breakfast will make people sick,1,9
+1319,Often do not eat breakfast will make people healthy,0,9
+1320,Most boys make up,0,4
+1320,Most girls make up,1,4
+1334,a lot of people get hurt in sleep,0,8
+1334,a lot of people get hurt at war,1,8
+1335,it is normal for people to use radio to play games,0,11
+1335,it is normal for people to use the computer to play games,1,12
+1337,Your father gave birth to you,0,6
+1337,Your mother gave birth to you,1,6
+1342,people usually dream when they fall asleep,1,7
+1342,people usually dream when they are awake,0,7
+1347,he is drunk because he drinks too much alcohol,1,9
+1347,he is drunk because he sleeps a lot,0,8
+1353,Pour detergent into the washing machine to wash clothes,1,9
+1353,Pour ink into the washing machine to wash clothes,0,9
+1355,Most people work to spend money,0,6
+1355,Most people work to earn money,1,6
+1358,Gravity can start an electronic device,0,6
+1358,Electricity can start electronic devices,1,5
+1362,Cinemas usually play movies after the lights are turned on,0,10
+1362,Cinemas usually play movies when the lights are off,1,9
+1366,I need a dictionary to translate languages I don't understand,1,10
+1366,I need newspapers to translate languages I don't understand,0,9
+1368,She often observes the stars with a telescope in the daytime,0,11
+1368,She often observes the stars with a telescope at night,1,10
+1370,Kissing is a way of expressing love between couples,1,9
+1370,Arguing is a way of expressing love between couples,0,9
+1375,"If you think TV programs are too loud, you can reduce the volume",1,13
+1375,"If you think TV programs are too loud, you can increase the volume",0,13
+1381,a new hairstyle will give me a new look,1,9
+1381,a new hairstyle will give me the same look,0,9
+1385,usually there are many stores in malls,1,7
+1385,usually there are many elephants in malls,0,7
+1386,milk is from cows' body,1,5
+1386,milk is from milkers' body,0,5
+1391,people can pick watermelons off from trees,0,7
+1391,people can pick lemons off from trees,1,7
+1392,the color of the orange is orange,1,7
+1392,the color of the banana is banana,0,7
+1397,most people use legs to walk,1,6
+1397,most people use arms to walk,0,6
+1398,silk is a common material for wedding gowns,1,8
+1398,silk is a common material for wedding rings,0,8
+1408,they put out a fire successfully with water,1,8
+1408,they put out a fire successfully with kerosene,0,8
+1413,we use windows to let the light shine into the house,1,11
+1413,we use walls to let the light shine into the house,0,11
+1416,I learned to play basketball to enjoy music,0,8
+1416,I learned to play the piano to enjoy music,1,9
+1421,two people who hate each other will kiss,0,8
+1421,two people who love each other will kiss,1,8
+1426,I poured kerosene on top of the cereal as my breakfast,0,11
+1426,I poured milk on top of the cereal as my breakfast,1,11
+1429,the bar is a good place to prepare for the exam,0,11
+1429,the bar is a good place to have fun,1,9
+1436,I felt the building was shaking and then I realized it was rainy,0,13
+1436,I felt the building was shaking and then I realized it was an earthquake,1,14
+1441,I was so angry to see an old friend in a foreign land,0,13
+1441,I was so happy to see an old friend in a foreign land,1,13
+1445,I was very happy because my little brother was born yesterday,1,11
+1445,I was very happy because my big brother was born yesterday,0,11
+1452,a salesman can fool a product,0,6
+1452,a salesman can fool a customer,1,6
+1453,you can gather energy by eating food,1,7
+1453,you can gather energy by taking exercise,0,7
+1462,we can find sugar in ocean water,0,7
+1462,we can find salt in ocean water,1,7
+1467,I lay in the bed to have a sleep,1,9
+1467,I had a sleep to lie in the bed,0,9
+1472,soccer ball is a kind of ball,1,7
+1472,soccer ball is a kind of sport,0,7
+1476,grass is a common material for a bowl,0,8
+1476,glass is a common material for a bowl,1,8
+1481,they began to enjoy being together after they fell in love,1,11
+1481,they began to enjoy being apart after they fell in love,0,11
+1484,eating salty food would make you hungry,0,7
+1484,eating salty food would make you thirsty,1,7
+1490,child need to be taught how to read,1,8
+1490,child need to be taught how to laugh,0,8
+1493,the weight machine showed that I had grown taller,0,9
+1493,the weight machine showed that I had grown fatter,1,9
+1496,I carried a fork to eat soup,0,7
+1496,I carried a spoon to eat soup,1,7
+1497,"to be a husband, you need to accept strict training",0,10
+1497,"to be a pilot, you need to accept strict training",1,10
+1498,the dog barked all day and I had to wear nasal plugs,0,12
+1498,the dog barked all day and I had to wear ear plugs,1,12
+1504,after finishing all my work I felt very relaxed,1,9
+1504,after finishing all my work I felt very stressful,0,9
+1509,my favorite thing is surfing in the swimming pool,0,9
+1509,my favorite thing is surfing in the sea,1,8
+1513,the ground was covered by wind after the storm,0,9
+1513,the ground was covered by leaves after the storm,1,9
+1514,we can see different moon by traveling,0,7
+1514,we can see different people by traveling,1,7
+1515,Jim stole her bicycle and now he is a criminal,1,10
+1515,Jim stole her heart and now he is a criminal,0,10
+1517,every boat has a life jacket to prevent a person from falling in water,0,14
+1517,every boat has a life jacket to prevent a person from drowning in water,1,14
+1520,we dug on the wall to drill a well for the village,0,12
+1520,we dug on the ground to drill a well for the village,1,12
+1525,he is a nice boy because he smiles to everyone,1,10
+1525,he is a nice boy because he yells at everyone,0,10
+1535,I'm looking for the staircase to go upstairs,1,8
+1535,I'm looking for the handrail to go upstairs,0,8
+1541,I connected to the Internet to shop online,1,8
+1541,I connected to the hi-fi to shop online,0,8
+1551,we always drink apples at breakfast,0,6
+1551,we always drink juice at breakfast,1,6
+1560,I am looking for a new job after being fired,1,10
+1560,I am looking for a new wife after being fired,0,10
+1562,I helped the robot to find its dad,0,8
+1562,I helped the boy to find his dad,1,8
+1564,policeman tried to arrest criminals to send them to prison,1,10
+1564,policeman tried to arrest criminals to send them home,0,9
+1582,the fish is a very common dish for coastal people,1,10
+1582,the bait is a very common dish for coastal people,0,10
+1584,I spent more time on having fun so I had better grades,0,12
+1584,I spent more time on studying so I had better grades,1,11
+1592,every time my cat eats a fish it is very happy,1,11
+1592,every time my cat eats bamboo it is very happy,0,10
+1607,air conditioning can change the temperature effectively,1,7
+1607,air conditioning can change the brightness effectively,0,7
+1612,people in the desert don't need water,0,7
+1612,people in the desert lack water,1,6
+1616,reading can improve our thinking ability,1,6
+1616,running can improve our thinking ability,0,6
+1617,spring is the season of harvest,0,6
+1617,autumn is the season of harvest,1,6
+1618,advertising is used to show the shortcomings of products,0,9
+1618,advertising is used to show the advantages of products,1,9
+1624,Americans couldn't understand what he said because of his strange accent,1,11
+1624,Americans couldn't understand what he said because of his standard spoken English,0,12
+1628,my nice wearing left a good impression on him,1,9
+1628,my nice wearing left a bad impression on him,0,9
+1631,rice is the main food for all the people,0,9
+1631,rice is the main food for some people,1,8
+1645,the library is a good place to study because of its quiet environment,1,13
+1645,the library is a good place to sleep because of its quiet environment,0,13
+1666,he thought it would rain soon so he carried sunglasses,0,10
+1666,he thought it would rain soon so he carried an umbrella,1,11
+1669,we should ignore the traffic light when we go across the road,0,12
+1669,we should pay attention to the traffic light when we go across the road,1,14
+1676,my heads hurt,0,3
+1676,my head hurts,1,3
+1684,one day humans will settle on another planet,1,8
+1684,one day humans will settle on another star,0,8
+1686,teachers assign homework to the students,1,6
+1686,teachers assign housework to the students,0,6
+1689,wearing a party hat to attend the funeral is perfect,0,10
+1689,wearing a party hat to attend the celebration is perfect,1,10
+1695,I sat in the trunk of the taxi with my girlfriend,0,11
+1695,I sat in the backseat of the taxi with my girlfriend,1,11
+1698,I saw snow in South Africa in June,1,8
+1698,I saw snow in Singapore in June,0,7
+1700,the plane is a useful transportation tool in campus,0,9
+1700,the bicycle is a useful transportation tool in campus,1,9
+1702,I got a scholarship for cheating in the exam,0,9
+1702,I was fined for cheating in the exam,1,8
+1711,gardeners grow crops in gardens,0,5
+1711,gardeners grow flowers in gardens,1,5
+1713,I can't forget the night that I saw cells with telescope,0,11
+1713,I can't forget the night that I saw Mars with telescope,1,11
+1717,you should have your passport ready before you take domestic flights,0,11
+1717,you should have your passport ready before you take international flights,1,11
+1731,you will find a payment counter in a police station,0,10
+1731,you will find a payment counter in a bank,1,9
+1735,humans can be identified by their unique fingerprints,1,8
+1735,humans can be identified by their unique names,0,8
+1744,the sun rises sometimes in China,0,6
+1744,the sun rises every day in China,1,7
+1752,some ingredients are expensive because it's common,0,7
+1752,some ingredients are expensive because it's rare,1,7
+1754,I was disappointed because the expensive food tasted good,0,9
+1754,I was disappointed because the expensive food tasted bad,1,9
+1766,weighing an elephant is very difficult because of its heavy weight,1,11
+1766,weighing an elephant is very difficult because of its cute appearance,0,11
+1770,I used to take notes on the pens,0,8
+1770,I used to take notes on the paper,1,8
+1774,twins died on the same day,0,6
+1774,twins were born on the same day,1,7
+1776,it's crazy to turn on the air conditioning on a freezing day,0,12
+1776,it's crazy to turn on the electricity fans on a freezing day,1,12
+1779,spring festival celebrates the first day of the Lunar New Year,1,11
+1779,spring festival celebrates the first day of the solar calendar new year,0,12
+1784,doctors often wear masks to prevent the spread of infection,1,10
+1784,doctors often wear masks to prevent being recognized,0,8
+1785,I have more and more white hair as I get older,1,11
+1785,I have more and more black hair as I get older,0,11
+1795,I pressed the accelerator in my bicycle to speed up,0,10
+1795,I pressed the accelerator in my car to speed up,1,10
+1798,"in old age, muscles go through a growth spurt",0,9
+1798,"at adolescence, muscles go through a growth spurt",1,8
+1804,it seems my joke is funny because nobody laughed,0,9
+1804,it seems my joke is funny because everybody laughed,1,9
+1806,I finished my work while I going to sleep,0,9
+1806,I finished my work before I going to sleep,1,9
+1807,"I can't afford the flight ticket from China to the US, so I decided to take ship",1,17
+1807,"I can't afford the flight ticket from China to the US, so I decided to walk",0,16
+1811,girls wear skirts in winter for beauty,1,7
+1811,girls wear skirts in winter for warmth,0,7
+1817,Alice broke down when the situation was hopeful,0,8
+1817,Alice broke down when the situation was hopeless,1,8
+1830,going to the zoo is for being seen,0,8
+1830,going to the zoo is for seeing animals,1,8
+1833,Bob sang a picture yesterday,0,5
+1833,Bob painted a picture yesterday,1,5
+1838,goods can be transported by plane,1,6
+1838,goods can be transported by wind,0,6
+1848,adults change clothes according to the weather every day,1,9
+1848,adults change clothes according to their height every day,0,9
+1850,museum exhibits artifacts for everyone to learn,1,7
+1850,museum exhibits artifacts for sale,0,5
+1856,designers show outdated clothes in a fashion show,0,8
+1856,designers show avant-garde clothes in a fashion show,1,8
+1866,"when a relative dies, we held a funeral for him",1,10
+1866,"when a relative dies, we held a party for him",0,10
+1875,we took notes in class for recording what we were thinking,0,11
+1875,we took notes in class for not forgetting the knowledge,1,10
+1876,I want to find a quiet place to have a sleep,1,11
+1876,I want to find a noisy place to have a sleep,0,11
+1879,Sweat will be secreted when the sand touches eyes,0,9
+1879,Tears will be secreted when the sand touches eyes,1,9
+1880,People usually put curtains on the windows,1,7
+1880,People usually put curtains on the walls,0,7
+1886,Sheep usually like wolves,0,4
+1886,Sheep usually hate wolves,1,4
+1888,Eating a lot of instant noodles is healthy,0,8
+1888,Eating a lot of instant noodles is unhealthy,1,8
+1894,I can take part in the soccer game in formal clothes,0,11
+1894,I can take part in the soccer game in athletic clothes,1,11
+1901,People should rub water on their skin before giving an injection,0,11
+1901,People should rub ethyl alcohol on their skin before giving an injection,1,12
+1911,Frogs will die with enough water,0,6
+1911,Frogs will die without enough water,1,6
+1917,Wang is eating with poles,0,5
+1917,Wang is eating with chopsticks,1,5
+1919,Running is a good exercise,1,5
+1919,Resting is a good exercise,0,5
+1920,Cookies and milk make a great dessert,1,7
+1920,Computers and milk make a great dessert,0,7
+1925,most people consider it to be cold when it is below zero degrees,1,13
+1925,most people consider it to be cold when it is above ninety degrees,0,13
+1932,the balloon expanded as he blew into it,1,8
+1932,the balloon expanded as he pricked it,0,7
+1934,a hammer dropped on Bill's foot and his toe was broken,1,11
+1934,a hammer dropped on Bill's foot and his finger was broken,0,11
+1941,the clouds were getting darker so I brought my umbrella to work,1,12
+1941,the clouds were getting darker so I brought my laptop to work,0,12
+1942,the boy lost hold of the soap because it's fragrant,0,10
+1942,the boy lost hold of the soap because it's slippery,1,10
+1956,she made an error in her calculations because she checked it only once,1,13
+1956,she made an error in her calculations because she checked it several times,0,13
+1960,a group of teenagers crashed the party and the host invited them in,0,13
+1960,a group of teenagers crashed the party and the host kicked them out,1,13
+1968,I applied pressure to the cut on my arm and it healed,0,12
+1968,I applied pressure to the cut on my arm and it stopped bleeding,1,13
+1975,the boy played computer games to be muscular,0,8
+1975,the boy lifted weights to be muscular,1,7
+1979,the hunter ran out of ammunition and he reloaded the gun,1,11
+1979,the hunter ran out of ammunition and he aimed at the deer,0,12
+1985,she makes phone calls to communicate with a deaf person,0,10
+1985,she makes gestures to communicate with a deaf person,1,9
+1988,people go to see a doctor because they fall ill,1,10
+1988,people go to see a doctor so they fall ill,0,10
+1990,he likes sitting in a car and driving on the desert no purpose,1,13
+1990,he likes sitting in a car and driving on the lake no purpose,0,13
+1993,i take two days off every week,1,7
+1993,i take eight days off every week,0,7
+1994,Mary lives in a hotel during a business trip,1,9
+1994,Mary lives in a hospital during a business trip,0,9
+1996,she prepares a custom-designed nightgown for the ceremony,0,8
+1996,she prepares a custom-designed evening dress for the ceremony,1,9
+1998,he washes his clothes with a magic wand,0,8
+1998,he washes his clothes with a washing machine,1,8
+2003,he is drawing a mountain on a piece of paper,1,10
+2003,he is climbing a mountain on a piece of paper,0,10
+2004,banana trees grow in the jungle,1,6
+2004,banana trees grow in the desert,0,6
+2007,rings protect people from the sun,0,6
+2007,umbrellas protect people from the sun,1,6
+2018,you can see a dinosaur in the museum,1,8
+2018,you can see a dinosaur in the zoo,0,8

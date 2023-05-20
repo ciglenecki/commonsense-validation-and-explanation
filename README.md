@@ -43,8 +43,8 @@ source venv/bin/activate
 sleep 2
 pip install -r requirements-dev.txt
 pip install -r requirements.txt
-python -m spacy download en_core_web_sm
-python -m spacy download en_core_web_trf # more accurate!
+# python -m spacy download en_core_web_sm
+# python -m spacy download en_core_web_trf # more accurate!
 ```
 
 **Step 2: Install current directory as a editable Python module:**

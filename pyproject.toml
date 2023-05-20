@@ -1,5 +1,5 @@
 [project]
-name = "commonsense-validation-and-explanation"
+name = "src"
 description = "Project from the course Text Analysis and Retrieval at the FER"
 version = "0.1.0"
 
