@@ -3,6 +3,8 @@ from functools import partial
 from pathlib import Path
 
 import pandas as pd
+import numpy as np
+import torch
 import yaml
 from datasets import Dataset, DatasetDict
 from sklearn.metrics import (
@@ -25,9 +27,17 @@ from src.functions import get_timestamp, random_codeword, stdout_to_file, to_yam
 from src.train_args import parse_args
 
 
+def softmax(pred):
+    row_max = np.max(pred[0], axis=1, keepdims=True)
+    e_x = np.exp(pred[0] - row_max)
+    row_sum = np.sum(e_x, axis=1, keepdims=True)
+    f_x = e_x / row_sum
+    return f_x
+
+
 def compute_metrics(pred):
-    print(pred)
-    x, y = pred[0].reshape(-1), pred[1].reshape(-1)
+    x = torch.argmax(torch.tensor(softmax(pred)), dim=1).numpy()
+    y = pred[1].reshape(-1)
     return {
         "accuracy": accuracy_score(x, y),
         "f1": f1_score(x, y),
@@ -106,7 +116,7 @@ def main():
         num_train_epochs=args.num_epochs,
         weight_decay=args.weight_decay,
         optim=args.optim,
-        metric_for_best_model=f"val_{args.metric}",
+        metric_for_best_model=f"eval_{args.metric}",
         evaluation_strategy="epoch",
         save_strategy="epoch",
         load_best_model_at_end=True,
