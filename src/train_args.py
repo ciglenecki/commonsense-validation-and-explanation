@@ -135,6 +135,11 @@ def parse_args():
         default=DEFAULT_OPTIM,
     )
 
+    parser.add_argument(
+        "-f",
+        type=str,
+    )
+
     args = parser.parse_args()
 
     if args.pretrained_tag is None:

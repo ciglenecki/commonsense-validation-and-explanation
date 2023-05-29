@@ -8,9 +8,10 @@ matplotlib
 ipykernel
 pandas
 datasets[text]
-ipykernel
 pyrootutils
 scikit-learn
 transformers[sentencepiece]
 accelerate
 tensorboard
+lime
+shap
