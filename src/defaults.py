@@ -5,16 +5,8 @@ from src.enums import SupportedLossFunctions, SupportedModels
 # ========== PATHS ==========
 PATH_DATA = Path("data")
 
-PATH_TASK_A_DATA = Path(PATH_DATA, "subtaskA_trial_data.csv")
-PATH_TASK_B_DATA = Path(PATH_DATA, "subtaskB_trial_data.csv")
-PATH_TASK_C_DATA = Path(PATH_DATA, "subtaskC_trial_data.csv")
-
-PATH_TASK_A_LABELS = Path(PATH_DATA, "subtaskA_answers.csv")
-PATH_TASK_B_LABELS = Path(PATH_DATA, "subtaskB_answers.csv")
-PATH_TASK_C_LABELS = Path(PATH_DATA, "subtaskC_answers.csv")
-
-PATH_TRAIN_A = Path(PATH_DATA, "clean_a_train_3232.csv")
-PATH_TEST_A = Path(PATH_DATA, "clean_a_test_810.csv")
+PATH_TRAIN_A = Path(PATH_DATA, "subtaskA_train_data_20000.csv")
+PATH_TEST_A = Path(PATH_DATA, "subtaskA_test_data_2000.csv")
 PATH_MODELS = Path("models")
 
 # ========== DEFAULTS ==========
