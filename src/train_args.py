@@ -2,6 +2,7 @@ import argparse
 from pathlib import Path
 
 from src.defaults import (
+    DEFAULT_AUGMENTATION_THRESHOLD,
     DEFAULT_GRAD_ACCUM_STEPS,
     DEFAULT_LOSS_FN,
     DEFAULT_LR,
@@ -15,6 +16,7 @@ from src.defaults import (
     DEFAULT_PROBLEM_TYPE,
     DEFAULT_TEST_BATCH_SIZE,
     DEFAULT_TRAIN_BATCH_SIZE,
+    DEFAULT_WARMUP_RATIO,
     DEFAULT_WEIGHT_DECAY,
     PATH_MODELS,
     PATH_TEST_A,
@@ -134,7 +136,16 @@ def parse_args():
         type=str,
         default=DEFAULT_OPTIM,
     )
-
+    parser.add_argument(
+        "--augmentation_threshold",
+        type=float,
+        default=DEFAULT_AUGMENTATION_THRESHOLD,
+    )
+    parser.add_argument(
+        "--warmup_ratio",
+        type=float,
+        default=DEFAULT_WARMUP_RATIO,
+    )
     parser.add_argument(
         "-f",
         type=str,

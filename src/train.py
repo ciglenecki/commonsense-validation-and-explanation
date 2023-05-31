@@ -26,6 +26,9 @@ from transformers import (
 from src.functions import get_timestamp, random_codeword, stdout_to_file, to_yaml
 from src.train_args import parse_args
 
+import nlpaug.augmenter.word as naw
+import random
+
 
 def softmax(pred):
     row_max = np.max(pred[0], axis=1, keepdims=True)
@@ -102,10 +105,28 @@ def get_hf_dataset(args: argparse.Namespace):
     return dataset
 
 
+def perform_dataset_augmentation(threshold, dataset):
+    dataset_pd = Dataset.to_pandas(dataset)
+
+    def perform_sentence_augmentation(sentence):
+        percentage = random.random()
+        return naw.RandomWordAug(action="swap").augment(sentence) if percentage > threshold else [sentence]
+
+    dataset_pd["sentence"] = dataset_pd["sentence"].apply(perform_sentence_augmentation)
+    dataset_pd["sentence"] = dataset_pd["sentence"].apply(lambda x: x[0])
+    dataset_pd.head()
+    return Dataset.from_pandas(dataset_pd)
+
+
 def main():
     args = parse_args()
 
     experiment_name, experiment_dir, output_dir = experiment_setup(args)
+
+    tokenizer = AutoTokenizer.from_pretrained(
+        args.pretrained_tag,
+        use_fast=True,
+    )
 
     training_args = TrainingArguments(
         output_dir=experiment_dir,
@@ -120,23 +141,21 @@ def main():
         evaluation_strategy="epoch",
         save_strategy="epoch",
         load_best_model_at_end=True,
+        save_total_limit=2,
         fp16=args.use_fp16,
         report_to="tensorboard",
         gradient_accumulation_steps=args.grad_acc,
         logging_steps=True,
-        warmup_ratio=0.1,
+        warmup_ratio=args.warmup_ratio,
         logging_first_step=True,
         logging_dir=experiment_dir,
         greater_is_better=args.metric_mode,
     )
 
-    tokenizer = AutoTokenizer.from_pretrained(
-        args.pretrained_tag,
-        use_fast=True,
-    )
-
     data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
     dataset = get_hf_dataset(args)
+
+    dataset["train"] = perform_dataset_augmentation(args.augmentation_threshold, dataset["train"])
 
     tokenized_dataset = dataset.map(
         partial(dataset_preprocess, tokenizer=tokenizer), batched=True
@@ -147,7 +166,7 @@ def main():
         num_labels=args.num_labels,
         problem_type=args.problem_type,
         state_dict=None,
-    )
+    ).to(0)
 
     trainer = Trainer(
         model=model,
