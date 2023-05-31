@@ -1,0 +1,2001 @@
+id,sentence,label,sentence_length
+1175,He loves to stroll at the park with his bed,0,10
+1175,He loves to stroll at the park with his dog.,1,10
+452,The inverter was able to power the continent.,0,8
+452,The inverter was able to power the house,1,8
+275,The chef put extra lemons on the pizza.,0,8
+275,The chef put extra mushrooms on the pizza.,1,8
+869,sugar is used to make coffee sour,0,7
+869,sugar is used to make coffee sweet,1,7
+50,There are beautiful flowers here and there in the garden,1,10
+50,There are beautiful planes here and there in the garden,0,10
+1155,"Once a pipe bursts, call a doctor.",0,7
+1155,"Once a pipe bursts, call a plumber.",1,7
+1395,Everyone hates paying taxes,1,4
+1395,Nobody hates paying taxes,0,4
+967,all whales are small,0,4
+967,whales are huge,1,3
+906,the boat enjoyed rolling in the mud,0,7
+906,the pig enjoyed rolling in the mud,1,7
+1465,Barbies are a fantastic desire for kids,1,7
+1465,Barbies are the horrible desire for kids,0,7
+1680,The window looks out her,0,5
+1680,She looks out the window,1,5
+1964,crack addicts are addicted to chocolate milk,0,7
+1964,crack addicts are addicted to crack,1,6
+830,the generator was able to power the continent,0,8
+830,the generator was able to power the house,1,8
+174,Witches are not made of wood,1,6
+174,Toads are not made of wood,0,6
+461,She went to the grocery store to get bananas.,1,9
+461,She went to the grocery store to get an aneurysm.,0,10
+1978,He pulled the covers over his head when he got into bed.,1,12
+1978,He pulled the water over his head when he got into bed.,0,12
+495,She is hypnotizing a book.,0,5
+495,She is reading a book.,1,5
+1388,Roberts' room is sleeping,0,4
+1388,Robert close he's eyes and he is sleeping in his room,1,11
+1572,Birds often fly south for the winter.,1,7
+1572,Birds like to stay in the same location all year long.,0,11
+305,The boy ate a basketball,0,5
+305,The boy ate a donut,1,5
+1695,He put a pig into the pan,0,7
+1695,He put stake into the pan,1,6
+1886,A mouse is an input device.,1,6
+1886,waiting in line is for patient people,0,7
+878,humans never go to sleep,0,5
+878,when tired humans go to sleep,1,6
+754,I can have a haircut at the pharmacy,0,8
+754,I can buy medicine at the pharmacy,1,7
+1444,There are four years each season.,0,6
+1444,There are four seasons each year.,1,6
+1065,The giraffe is riding the bicycle.,0,6
+1065,The young girl is riding the bicycle.,1,7
+543,I put on my sunglasses because it was a hot August day.,1,12
+543,I put on my sunglasses because it was an overcast day.,0,11
+518,Kim is taking out the garbage.,1,6
+518,Kim is dating the garbage.,0,5
+692,A television plays video with audio.,1,6
+692,A television plays audio only.,0,5
+1296,Rabbits are carnivores,0,3
+1296,Rabbits are herbivores,1,3
+1893,I put a bottle of milk into the fridge.,1,9
+1893,I put a car inside the fridge.,0,7
+1915,Firetrucks are red.,1,3
+1915,Firetrucks are green,0,3
+418,I prefer Amazon to shop online.,1,6
+418,Amazon is the only place to shop online.,0,8
+953,a letter carrier is a human,1,6
+953,an aircraft carrier is a human,0,6
+1148,Plastic is more expensive than gold.,0,6
+1148,Gold is more expensive than plastic.,1,6
+1943,The parrot flew onto the branch.,1,6
+1943,The branch ate the parrot.,0,5
+105,Today I ran two miles to burn a lot of calories to help me lose weight.,1,16
+105,Today I ran three ice-creams to gain a lot of calories to help me lose weight.,0,16
+1222,You do not need eyes to read a book.,0,9
+1222,You must have eyes to read a book.,1,8
+400,the dog is talking,0,4
+400,the dog likes to run,1,5
+1610,weathering is a hammer that breaks rock,0,7
+1610,rock is converted into the soil by weathering,1,8
+230,The sun sprays water on the planet,0,7
+230,The sun shines light on the earth,1,7
+1172,people can need sleep,0,4
+1172,A reporter can press for an answer.,1,7
+947,he wrote a great novel,1,5
+947,he wrote a great hamburger,0,5
+1144,If you're rich you can buy a yacht.,1,8
+1144,If you're poor you can buy a yacht.,0,8
+1017,apple can be red or green,1,6
+1017,apple is a blue fruit,0,5
+1063,Giraffes have long necks.,1,4
+1063,Monkeys have long necks.,0,4
+930,Tim went to the school this morning,1,7
+930,Tim went to the school in the sky,0,8
+83,Brushes are for hair,1,4
+83,Salsa is for hair,0,4
+1145,Everyday I feed my dog some dog food.,1,8
+1145,Everyday I feed my dog some chocolate bars.,0,8
+363,My knee was scrapped and I put ointment on it.,1,10
+363,My knee was scrapped and I put dirt on it.,0,10
+338,Jeremy fetches the cans of soup from the cabinet.,1,9
+338,Jeremy fetches a bull from the cabinet.,0,7
+391,the TV is on right now,1,6
+391,the TV is walking away,0,5
+1139,Something you find at a hotel is an elevator,1,9
+1139,Something you find at a hotel is n cow shelter,0,10
+688,He purchased chemical and cement to prepare a sandwich for dinner,0,11
+688,He purchased breads and vegetables to prepare a sandwich for dinner,1,11
+704,i am going are computer buy on mobile shop,0,9
+704,i am going are computer buy on Acer store,1,9
+1544,Humans wrote the bible about god,1,6
+1544,God lives physically on earth,0,5
+1760,A family do not need a house.,0,7
+1760,A house is a shelter for the family.,1,8
+303,We need plants to survive.,1,5
+303,We need fire to survive.,0,5
+850,he was given sweets as he passed the exam,1,9
+850,he was given sweets as he failed the exam,0,9
+924,the amazon rainforest contains many undiscovered species,1,7
+924,the Amazon rainforest does not have any animals on it,0,10
+1840,He filled his Car Tank with Gasoline.,1,7
+1840,He filled his Car Tank with  water.,0,7
+292,They stored food in the fridge in summer,1,8
+292,They stored food in the ground in summer,0,8
+7,dogs can live underwater,0,4
+7,shrimps can live underwater,1,4
+800,the family adopted a dinosaur to be their new pet,0,10
+800,the family adopted a dog to be their new pet,1,10
+1177,Something you find at a home is a t.v.,1,9
+1177,Something you find at the road is a t.v.,0,9
+259,Mowing the lawn requires zero people to accomplish the task.,0,10
+259,Mowing the lawn requires peoples to accomplish the task.,1,9
+274,It is hard to see the stars at night in places with air pollution.,1,14
+274,It is easy to see the stars on a clear day.,0,11
+1031,she sipped a coffee,1,4
+1031,she sipped a shoe,0,4
+377,Helicopters land without runways.,1,4
+377,Helicopters can speak English,0,4
+1225,A normal person has 4 arms,0,6
+1225,A normal person has two arms,1,6
+396,I finished my studies at school,1,6
+396,I finished my studies inside the sewer,0,7
+1860,I love to eat,1,4
+1860,Eating loves me,0,3
+1500,The sun comes out at night,0,6
+1500,The sun is bigger than the earth,1,7
+1625,You can use your eyes to see,1,7
+1625,You can use your eyes to eat,0,7
+896,onions are grown under the ground,1,6
+896,onions are grown in the tree,0,6
+1704,Television is a form of news.,1,6
+1704,You can open a jar with your teeth.,0,8
+1280,Milk that is drunk by humans is white,1,8
+1280,Beer that is drunk by humans is white,0,8
+125,You should leave the lights on when you leave the room.,0,11
+125,You should turn the lights off when you leave the room.,1,11
+1509,You can dance anywhere.,0,4
+1509,You can dance in your own room,1,7
+458,A train is used for sailing,0,6
+458,A train is used for traveling,1,6
+697,The boy wore his new shoes on his back.,0,9
+697,The boy wore his new shoes on his feet.,1,9
+1483,He prays before sleeping.,1,4
+1483,He drinks energy drinks before sleeping,0,6
+317,I use grass to cut my lawnmower.,0,7
+317,I use a lawnmower to cut my grass.,1,8
+757,the owner of the restaurant apologized for the good customer service,0,11
+757,the owner of the restaurant apologized for the terrible customer service,1,11
+770,she eats an egg for breakfast every day,1,8
+770,she eats a table for breakfast every day,0,8
+1976,Molly turned the AC on,1,5
+1976,Molly ordered the AC on,0,5
+970,the comedian performed magic tricks,0,5
+970,the comedian made some jokes,1,5
+1712,SHE EAT A MOBILE PHONE,0,5
+1712,SHE eats AN APPLE,1,4
+82,Dolphins are fish.,0,3
+82,Dolphins are mammals.,1,3
+438,"in summers, always the weather is rainy.",1,7
+438,"in summers, always the weather is cold.",0,7
+1581,The flowers bloomed in the spring.,1,6
+1581,The animals bloomed in the spring,0,6
+1269,The stone can float on the water,0,7
+1269,The wood can float on the water,1,7
+255,He hide his shoes in the closet.,1,7
+255,He hide a lion in the closet.,0,7
+717,A soldier fired with a revolver.,1,6
+717,A soldier shot with a guitar.,0,6
+1505,Breakfast is eating during the night.,0,6
+1505,Breakfast is eaten in the morning.,1,6
+999,It is easy to find seashells in the forest,0,9
+999,It is easy to find seashells by the ocean,1,9
+247,She went to college to learn how to drive a car,0,11
+247,She went to college to get a degree in criminology,1,10
+1784,He wants to fly.,1,4
+1784,He can fly.,0,3
+226,The library is on a street corner downtown,1,8
+226,The library is under a river downtown,0,7
+1843,short is life,0,3
+1843,Life is short,1,3
+1122,Water is not healthy.,0,4
+1122,"Water is a clear, colorless, odorless and tasteless liquid.",1,9
+860,a correct diet is good for your health,1,8
+860,eating trash food every day makes you stronger,0,8
+1490,People like to eat land,0,5
+1490,People like to eat pizza,1,5
+1448,Readers read fiction novels to immerse themselves in the author's fictitious world.,1,12
+1448,The reality readers live in is the same as the fictitious worlds authors create in fiction novels.,0,17
+1645,He rides rockets all days,0,5
+1645,He rides a bike all days,1,6
+1718,Boats float on water.,1,4
+1718,Planes float on water.,0,4
+1689,I can lit a car,0,5
+1689,I can lift a trash can.,1,6
+877,if you want to relax then you should go lie down,1,11
+877,standing up for long hours is relaxing,0,7
+1692,A stove sits on a pan,0,6
+1692,A pan sits on a stove.,1,6
+780,I would like to fry a laptop,0,7
+780,I would like to buy a laptop,1,7
+1092,The goldfish ate a cat.,0,5
+1092,The cat ate a goldfish.,1,5
+569,I put the leftover food in the fridge.,1,8
+569,I put the leftover food in the oven.,0,8
+1410,Lasagna is often eaten during movies.,0,6
+1410,Popcorn is often eaten during movies.,1,6
+1176,You are more likely to overeat on a full stomach.,0,10
+1176,You are more likely to overeat on an empty stomach.,1,10
+870,the car had a significant amount of rust,1,8
+870,the cow had a significant amount of rust,0,8
+166,She turned the light off.,1,5
+166,She turned the sun off.,0,5
+795,I need to heat up some water using the refrigerator,0,10
+795,I need to heat up some water using the microwave,1,10
+242,The bird rented a room,0,5
+242,The bird is tired,1,4
+1661,he won the lottery,1,4
+1661,he always wins the lottery,0,5
+728,The McLaren is a well-designed vehicle.,1,6
+728,The apple is a well-designed vehicle.,0,6
+916,people usually have their lunch in the morning,0,8
+916,people usually have their dinner at night,1,7
+294,The man slipped on the banana skin,1,7
+294,The man slipped on the gentle breeze,0,7
+919,the murder case remained unsolved,1,5
+919,the murder case remained a happy event,0,7
+1245,He went to a petrol station to write the exam,0,10
+1245,He went to the examination hall to write the exam,1,10
+1032,only eating fried food makes your diet healthier,0,8
+1032,eating vegetables is a healthy part of your diet,1,9
+1775,Amazon has gone bankrupt,0,4
+1775,Amazon is a big company,1,5
+997,her favorite organ is the kidney,1,6
+997,her favorite organ is the telephone,0,6
+746,The man went to the doctor because his back hurt,1,10
+746,The man went to the doctor because he needed to buy bread,0,12
+260,Fish swim in sand.,0,4
+260,Fish swim in water.,1,4
+271,cake is not poisonous,1,4
+271,lead is not poisonous,0,4
+933,He put the cat in the fridge,0,7
+933,He put an orange in the fridge,1,7
+491,To be a doctor you must only obtain the faith and trust of your patients.,0,15
+491,To be a doctor you must go to school for several years and earn a Ph.D.,1,16
+649,he put a person on the back and his bike,1,10
+649,he put a giraffe on the back of his bike,0,10
+1842,War is a good thing and benefits everyone.,0,8
+1842,War is evil.,1,3
+71,graphs have been known to cause cancer,0,7
+71,graphs can track numeric information,1,5
+341,The worm swallowed the bird.,0,5
+341,The bird swallowed the worm.,1,5
+777,he put some cooking oil in his wine,0,8
+777,he put some ice in his wine,1,7
+1817,I'saw a bird on the bike,1,6
+1817,I saw an elephant on a bicycle.,0,7
+760,the bird flew away,1,4
+760,the cow flew away,0,4
+839,the TV program entertains the fish,0,6
+839,the TV program entertains many people,1,6
+587,Jerry has orange serfs with flamingos printed on them.,0,9
+587,Jerry has orange undies with flamingos printed on them.,1,9
+362,His glasses are blurry so he wipes them clean,1,9
+362,His glasses are clear so he wipes them clean,0,9
+1716,Zebra swim in the water,0,5
+1716,Fish swim in the water,1,5
+892,he went for a walk in the woods and was bitten by a shark,0,14
+892,he went for a walk in the woods and tripped on a rock,1,13
+25,Some chocolate bars are molded metal.,0,6
+25,Some bars are molded metal.,1,5
+1745,He puts the monkeys in the cup.,0,7
+1745,He puts coffee into the cup.,1,6
+1955,The washing machine cleaned the dirty clothes,1,7
+1955,The refrigerator cleaned the dirty clothes,0,6
+1791,An apple took a bite out of him.,0,8
+1791,He took a bite of an apple.,1,7
+1650,He put a car into a fridge,0,7
+1650,He put butter into a fridge,1,6
+1722,Winter is a good time to wear short dresses.,0,9
+1722,people usually wear a coat in the winter,1,8
+1778,A duck is floating in the pond.,1,7
+1778,An anvil is floating in the pond.,0,7
+1836,He rides his bike.,1,4
+1836,He rides his apple.,0,4
+1887,It usually snows in Cuba,0,5
+1887,It usually snows in New England,1,6
+329,The park ran to him,0,5
+329,He ran to the park,1,5
+1697,he swapped a Corvette engine into a honda s2000,1,9
+1697,he put a semi-truck engine in the s2000,0,8
+1390,The zookeeper feeds the animals.,1,5
+1390,Zookeeper is working at the hospital,0,6
+407,The boy broke his tooth on a mango pit.,1,9
+407,The boy broke his tooth on a banana pit.,0,9
+1724,He wrote a book using his hands.,1,7
+1724,He wrote a book by signing,0,6
+1421,winter comes in the same time each year,0,8
+1421,winter comes in different time each year,1,7
+397,he likes to lay video games.,1,6
+397,The video game ran away.,0,5
+675,Hair can be cut at the pharmacy.,0,7
+675,Medicine is sold at the pharmacy.,1,6
+2,when it is hot humidity forms,0,6
+2,when it rains humidity forms,1,5
+142,Snowmen are made of snow.,1,5
+142,Snowmen are made of sand.,0,5
+853,he put the ice cream inside the fridge,1,8
+853,he put the house into the fridge,0,7
+1320,The man is in front of the city hall,1,9
+1320,City Hall adjusted to man's view,0,6
+1042,she drove a car,1,4
+1042,she drove a pencil,0,4
+907,I enter in a car,1,5
+907,I enter in a bottle,0,5
+1011,she eats an orange after her workout,1,7
+1011,she eats a pillow after her workout,0,7
+261,It is cold and hot outside,0,6
+261,It is cold outside,1,4
+620,The girl broke her lamp while ice skating.,0,8
+620,The girl broke her arm while ice skating.,1,8
+326,It is good to drink milk at night,1,8
+326,It is good to drink saltwater at night,0,8
+1902,The boy won the race with a cheetah,0,8
+1902,The boy won the race with his friends,1,8
+86,A home gives a person a sense of security,1,9
+86,A home is a place for violence.,0,7
+300,I hung a horse in my hallway.,0,7
+300,I hung a painting of a horse in my hallway.,1,10
+570,Lobsters live in the ocean,1,5
+570,Lobsters live in the mountains,0,5
+68,Children go to school to learn,1,6
+68,Children go to school to laugh,0,6
+1531,She flew to church in her new car,0,8
+1531,She drove to church in her new car,1,8
+1246,Blackberries and strawberries are berries.,1,5
+1246,Blackberries and strawberries are the same.,0,6
+1690,The ocean consists of saltwater.,1,5
+1690,Freshwater fish can live in the ocean.,0,7
+608,The men are mowing the lawn because the grass is getting long.,1,12
+608,The men are mowing the lawn because it is raining.,0,10
+1765,I took three Tylenol tablets to cure my headache.,1,9
+1765,I took 300 Tylenol tablets to cure my headache.,0,9
+1205,Wheels are delicious for human taste,0,6
+1205,Chickens are delicious for human taste,1,6
+586,CNN covers the news,1,4
+586,CNN is for sports,0,4
+469,Going to a place that is too far to walk to requires other means of transportation,1,16
+469,Going to a place that is too far to walk requires good tennis.,0,13
+1276,She walks to the school everyday morning,1,7
+1276,She flies to the school everyday morning,0,7
+1731,"That morning, Kate had dinner and left for work",0,9
+1731,"That morning, Kate had breakfast and left for work",1,9
+171,The wind pushes the tree upright,0,6
+171,The wind blows over a tree,1,6
+474,A clown is in a circus,1,6
+474,Circuses only have animals,0,4
+1392,people can write what they heard,1,6
+1392,You need to see to write on paper.,0,8
+1491,the child plays video games,1,5
+1491,the chair plays video games,0,5
+1627,social networks are for humans and robots,1,7
+1627,robots are omniscient such as humans,0,6
+1702,A COW EAT A GRASS,1,5
+1702,A COW EAT A MOUNTAIN,0,5
+1774,you can find fish in lakes,1,6
+1774,You can only find fish in the ocean,0,8
+612,cars can be used for road drives,1,7
+612,Boats can be used for road drives,0,7
+1743,My sister is a female,1,5
+1743,My sister is a male,0,5
+1504,The fish live in rivers.,1,5
+1504,the fish live in computers.,0,5
+1278,he put a bird in the cage,1,7
+1278,he put a horse in the cage,0,7
+312,All that is born must eventually die.,1,7
+312,I will never die.,0,4
+1431,Whales can swim,1,3
+1431,Whales can fly,0,3
+1299,"When people cry,  tears come out of their ears",0,9
+1299,"When people cry,  tears come out of their eyes",1,9
+1534,There is a car in her purse,0,7
+1534,She put her purse in the front seat of the car,1,11
+1138,The phone turned off because it ran out of battery power.,1,11
+1138,The human died because it ran out of juice.,0,9
+1575,the lion likes ice cream,0,5
+1575,The kid likes ice cream,1,5
+638,You are likely to find sandals in a shoe shop,1,10
+638,You are likely to find Rice bags in a shoe shop,0,11
+628,"After cutting my hair, the barber swept up hair that had fallen to the floor.",1,15
+628,"After cutting my hair, the barber shoveled snow that had fallen on the floor",0,14
+1787,The boy sucked on the popsicle with his mouth.,1,9
+1787,The boy sucked on the popsicle with his nostril.,0,9
+1909,People may consider you rude if you do not say please when asking for something.,1,15
+1909,People may consider you polite if you do not say please when asking for something.,0,15
+653,He put on blue pants,1,5
+653,He put his pants on a horse,0,7
+1417,A congressman is well-payed,1,4
+1417,A scholar is well-payed,0,4
+357,Cats walk on all four legs,1,6
+357,Cats are bipedal creatures,0,4
+1929,the clock shows animals,0,4
+1929,the clock shows the correct time,1,6
+1604,he had a pair of air jordans for basketball game,1,10
+1604,he had Michael Jordan at the game,0,7
+676,He sent some messages from the WhatsApp mobile application by his shoes,0,12
+676,He sent some messages from the WhatsApp mobile application by his mobile,1,12
+1558,A teacher is writing in the board by sack piece,1,10
+1558,A teacher is writing in the board by Blade,0,9
+968,A stop sign is always red,1,6
+968,A stop sign is always white,0,6
+1553,Abuse is good and fun,0,5
+1553,She doesn't like being abused,1,5
+447,People need fruit to live,1,5
+447,Fruit needs people to live,0,5
+20,she was met with an accident and was rushed to the library,0,12
+20,she was met with an accident and was rushed to the hospital,1,12
+108,Coffee is made from beans,1,5
+108,Orange juice is made from beans,0,6
+73,He opened the bottle to read it,0,7
+73,He opened the book to read it.,1,7
+732,I am going for my family tour in one cycle,0,10
+732,I am going for my family tour on one bus,1,10
+845,he fed boulders to the monkey,0,6
+845,he fed bananas to the monkey,1,6
+414,Reading a book is a great way to go on a journey without leaving your home.,1,16
+414,"Read a book and you'll be thrown into a world of lions, witches, and wardrobes, and have to fight for your life!",0,22
+1393,She saw a boat flying over the river,0,8
+1393,She saw a boat in the river,1,7
+809,"the dog growled, then charged the boy",1,7
+809,"the dog growled, then taught the boy",0,7
+1636,Restaurants are places to order food,1,6
+1636,Restaurants are places to cook your dinner.,0,7
+1832,The child studied a lot to take a test.,1,9
+1832,The child studied a lot to open a door.,0,9
+762,he put a bear into a pot,0,7
+762,he put a flower into a pot,1,7
+422,The protein bar ate me,0,5
+422,I ate a protein bar,1,5
+1956,My child likes to wear her bathing suit to school.,0,10
+1956,My child likes to wear her red dress to school.,1,10
+1262,Anthony decided that he will kick the warm glass of water to the fridge.,0,14
+1262,Anthony concluded that he will put the warm glass of water in the fridge.,1,14
+131,People can breathe in outer space without any mechanical aid or protection.,0,12
+131,People can breathe on earth without any mechanical aid or protection.,1,11
+835,my son has two big hands,1,6
+835,my son has four big hands,0,6
+1415,detergents are used to clean clothes,1,6
+1415,detergents are used in an investigation,0,6
+1918,she put the salad in the bowl,1,7
+1918,she put the cat in the bowl,0,7
+1619,she put water in the freezer,1,6
+1619,she put the giraffe in the freezer,0,7
+938,relatives bark at the dog,0,5
+938,my dog barks at relatives,1,5
+1788,She put some money in the oven.,0,7
+1788,She put a fish in the oven.,1,7
+1240,He shucked and oyster,1,4
+1240,He shucked a fish,0,4
+1828,The pen ran out of ink,1,6
+1828,the ink ran out of the pen,0,7
+413,My heater gets very hot,1,5
+413,My heater cools a lot,0,5
+1656,I STOLE A BLUE CORVETTE,0,5
+1656,I STOLE A RED CAR,1,5
+1304,She is too timid so she loves to watch horror movies,0,11
+1304,She is too timid to watch horror movies,1,8
+1664,boys wear bra to provide support to their breasts,0,9
+1664,girls wear a bra to provide support to their breasts,1,10
+526,The waterfall provided the children with an exciting slide down the rock.,1,12
+526,The waterfall flowed up sending the children to the top of the rock.,0,13
+150,Joe wanted something to eat. He decided to drink a soccer ball.,0,12
+150,Joe wanted something to eat. He decided to eat pizza.,1,10
+993,the dog gave birth to puppies,1,6
+993,the dog gave birth to hotdogs,0,6
+1313,Basketball is played with the feet,0,6
+1313,Soccer is played with the feet,1,6
+647,he swims 1km each way every day,1,7
+647,he swims with piranhas,0,4
+1322,Flowers only need dirt to grow and nothing else.,0,9
+1322,Flowers need sunlight to grow.,1,5
+197,dolphins are fast to fly,0,5
+197,dolphins are fast to swim,1,5
+591,We bought a painting from the farmer.,0,7
+591,We bought fresh corn from the farmer.,1,7
+966,she put the car in the dog,0,7
+966,she put the dog in the car,1,7
+1012,going to the gym is a healthy habit,1,8
+1012,going to the gym does not help you stay healthy,0,10
+1501,Japan is the main currency used in Yen.,0,8
+1501,Yen is the main currency used in Japan.,1,8
+1131,Water quenches thirst.,1,3
+1131,Salt quenches thirst.,0,3
+678,I tied my shoelaces with both hands,1,7
+678,I tied my shoelaces with my shoulders,0,7
+427,Something you find in a desk is tigers.,0,8
+427,Something you find in a desk is highlighters.,1,8
+743,He visited a doctor to cure his sickness,1,8
+743,He went to a lawyer to cure his sickness,0,9
+1054,The bottle drunk out of the baby.,0,7
+1054,The baby drunk out of the bottle.,1,7
+349,Most cars run on gasoline,1,5
+349,Most kangaroos run on gasoline,0,5
+602,Swimming is a common winter activity,0,6
+602,Swimming is a common summer activity,1,6
+799,the man took his suit to the dry cleaner,1,9
+799,the man took his door to the dry cleaner,0,9
+46,Mike got a new stove,1,5
+46,The stove walk to the fire,0,6
+988,the cow eats the bike,0,5
+988,the cow eats the grass,1,5
+827,all watermelons have water,1,4
+827,all watermelons have seeds,0,4
+1376,Schools often have a mathematics department,1,6
+1376,Schools often have operation theater,0,5
+1750,She put water in a cage,0,6
+1750,She put a mouse in a cage.,1,7
+147,Cars stop at a red light.,1,6
+147,Cars stop at a green light.,0,6
+48,A cat dropped from a plane wearing a parachute will land on the tip of its' tail.,0,17
+48,A cat dropped from a plane wearing a parachute will land on its' feet.,1,14
+580,He runs his heater when it's hot outside,0,8
+580,He runs his air conditioner when it's hot outside,1,9
+455,Sweating is a body mechanism to look cool,0,8
+455,Sweating is a body mechanism to cool down,1,8
+1676,every person take stones for breakfast,0,6
+1676,every person take food for breakfast,1,6
+286,I put clothes into the washing machine.,1,7
+286,I put bricks into the washing machine.,0,7
+1004,Jimmy got his leg bitten off by a shark,1,9
+1004,Jimmy got his leg bitten off by a kitten,0,9
+1895,Internet helps people stay connected,1,5
+1895,the Internet will disperse people,0,5
+1789,She put water in the bucket.,1,6
+1789,She put a building in the bucket.,0,7
+1948,Video game consoles are hard to see nowadays.,1,8
+1948,Video game consoles can be seen without contact lenses only,0,10
+634,I talked to my friend in the bark.,0,8
+634,I talked to my friend in the park.,1,8
+973,he turned the light on,1,5
+973,he turned the table on,0,5
+979,he installed the carpet on the floor,1,7
+979,he installed the carpet on the lake,0,7
+22,She erased a campfire with an eraser.,0,7
+22,She erased a chalkboard with an eraser.,1,7
+336,The rotary phone recorded me.,0,5
+336,The cell phone recorded me.,1,5
+472,I live 100 miles from Saturn.,0,6
+472,I live 100 miles from my birth location.,1,8
+372,He pet his dog gently,1,5
+372,He pet his pterodactyl gently,0,5
+1282,"If I put the light on,  it won't be dark anymore.",1,11
+1282,"If it's dark,  I must put the light off.",0,9
+36,she baked a chicken at Christmas,1,6
+36,she baked a horse at Christmas,0,6
+1427,My husband is addicted to bananas,1,6
+1427,bananas are addicted to my husband,0,6
+978,I walk and moves,1,4
+978,I walk without moving,0,4
+1928,Mammals include alligators,0,3
+1928,A giraffe is a mammal,1,5
+1197,Mathematicians can solve math problems.,1,5
+1197,Mathematicians can play football very well,0,6
+1413,She can make the rainfall.,0,5
+1413,She can hear the rainfall.,1,5
+233,Observatories are located at the top of the mountain,1,9
+233,Observatories are located at the bottom of the ocean.,0,9
+1829,She put a stove on the plate.,0,7
+1829,She put a soup on the plate.,1,7
+872,smoking is injurious to health,1,5
+872,smoking will cherish your health,0,5
+1128,If I want ride a motorcycle I needn't wear the helmet.,0,11
+1128,If I want ride a motorcycle I must wear the helmet.,1,11
+575,The human is the fastest mammal on the planet,0,9
+575,The cheetah is the fastest mammal on the planet,1,9
+724,The robot felt sad,0,4
+724,The monkey felt sad,1,4
+550,Babies are affected heavily by their environments.,1,7
+550,Babies are unaware of their surroundings and reap no harm from the negativity around them.,0,15
+1481,The mother carried her 3-day old newborn baby to the car.,1,11
+1481,The 3-day old newborn baby walked to the car.,0,9
+1770,a war is fought for solution,1,6
+1770,There is peace during war,0,5
+238,Ice is a highly concentrated form of nutrition.,0,8
+238,Nuts are a highly concentrated form of nutrition.,1,8
+902,the smartphone is a device used for communication,1,8
+902,the smartphone is a device used for transportation,0,8
+824,a watermelon contains more water than a banana,1,8
+824,a banana contains more water than a watermelon,0,8
+319,She fell down the stairs and broke her knee,1,9
+319,She fell up the stairs and broke her knee,0,9
+773,I got ready for bed so I drank a cup of coffee,0,12
+773,I got ready for bed so I washed my face,1,10
+424,the man fed the snake a mouse,1,7
+424,the man fed the mouse a snake,0,7
+1772,A neighbor is a person who lives far from you,0,10
+1772,A neighbor is a person who lives next to you,1,10
+545,the pharmacy sell medications,1,4
+545,the pharmacy sell pets,0,4
+288,The sky is blue,1,4
+288,The sky is orange,0,4
+753,my brother waters his phone every morning,0,7
+753,my brother waters his flowers every morning,1,7
+119,she rides the public bus to school,1,7
+119,she drives the public bus to school,0,7
+1701,the driver brakes when seeing the red signal,1,8
+1701,the driver accelerates when seeing the red signal,0,8
+1874,the snake runs on his feet,0,6
+1874,the snake crawls on his body,1,6
+76,the moon is falling from the sky,0,7
+76,A moon didn't fall from the sky,1,7
+1020,"if you don't brush your teeth, you get dark",0,9
+1020,"if you don't brush your teeth, you will get Oral Diseases",1,11
+1264,my sister walks to work today,1,6
+1264,my sister flies to work today,0,6
+241,Eating pizza requires a pizza,1,5
+241,Eating pizza requires a masters degree,0,6
+1242,He put a gorilla into a box,0,7
+1242,He put old clothes into a box,1,7
+75,My professor had us write an essay on The National Monument.,1,11
+75,My son had us write an essay on The National Monument.,0,11
+446,Artificial flowers in my flower vase wilts soon,0,8
+446,Fresh flowers in my flower vase wilts soon,1,8
+648,I play games on my shoes,0,6
+648,I play games on my phone,1,6
+568,He walked a dog on a leash in the park,1,10
+568,He walked a rock in the park,0,7
+1736,A cat eats a building,0,5
+1736,A cat eats a fish,1,5
+1879,grass grows in the water,0,5
+1879,grass grows on the ground,1,5
+1574,The school is for learning,1,5
+1574,the store is for learning,0,5
+911,she cooked mosquitos and ants for dinner,0,7
+911,she cooked pasta and sushi for dinner,1,7
+556,"At the restaurant, police came for taking orders",0,8
+556,"At the restaurant, a waiter came for taking orders",1,9
+747,dogs are social animals who prefer a solitary existence to live in a pack,0,14
+747,dogs are social animals who prefer life in a pack to a solitary existence,1,14
+1294,baby like milk,1,3
+1294,milk like a baby,0,4
+891,you are able to use a piece of paper as a bookmark,1,12
+891,you are able to use a brick as a bookmark,0,10
+239,The man is resilient,1,4
+239,The man is a rubber,0,5
+1436,Jill received a bill from the moon,0,7
+1436,Jill received a bill from the gas company,1,8
+1882,You can sell unwanted items on Facebook,1,7
+1882,You can sell a baby on Facebook,0,7
+779,we can touch the rainbows,0,5
+779,we can see the rainbows,1,5
+1045,"if it doesn't rain for a long time, the earth will get very dry",1,14
+1045,"if it doesn't rain for a long time, the earth will get very wet",0,14
+1655,The man Loves the dog,1,5
+1655,The dog hates his hoster,0,5
+1839,I hide successfully behind a tree,1,6
+1839,I hide successfully behind a book,0,6
+1215,You can send the photos by email,1,7
+1215,You can send the book by email,0,7
+1061,The dog yelled at the man.,0,6
+1061,The man yelled at the dog.,1,6
+202,An x-ray can be used to see people without clothes.,0,10
+202,An x-ray can be used to check the condition of a person's bones.,1,13
+1414,He drives cupboard well,0,4
+1414,He drives bike well,1,4
+707,Tacos was Johnny's favorite drink,0,5
+707,Tacos was Johnny's favorite food,1,5
+1171,He ties his socks before leaving for his flight,0,9
+1171,He ties his shoes before leaving for his flight,1,9
+1603,She shaved her eyes.,0,4
+1603,She shaved her legs.,1,4
+1735,The snake ate the bird.,1,5
+1735,The snake ate the elephant.,0,5
+644,river water run and reach the ocean finally.,1,8
+644,Ocean water runs into the river,0,6
+1997,"Sean is a hard-working guy, so he studied the whole day",1,11
+1997,"Sean is a hard-working guy, so he plays phone games the whole day",0,13
+130,A computer can work with being plugged in,1,8
+130,A notebook can work with being plugged in,0,8
+137,Walking is faster than driving,0,5
+137,Running is faster than walking,1,5
+597,The man went to jail after beating his wife.,1,9
+597,The man went to jail after eating candy.,0,8
+1687,I am throwing hello,0,4
+1687,I am saying hello,1,4
+1715,There was a bird flying.,1,5
+1715,There was a boy with glasses flying on a broomstick.,0,10
+1633,A man is wearing pants.,1,5
+1633,A tiger is wearing pants.,0,5
+976,he had a toothache so he went to a car salesman,0,11
+976,he had a toothache so he went to a dentist,1,10
+1734,The air is tasty,0,4
+1734,The juice is tasty,1,4
+904,fire cannot burn without oxygen,1,5
+904,fire can burn without oxygen,0,5
+1055,All frogs can fly in the sky just like birds.,0,10
+1055,Frogs are found in ponds and swamps.,1,7
+103,I saw my friend's cat dancing,1,6
+103,I saw my friend's car dancing,0,6
+915,you should stamp the letter before posting the letter,1,9
+915,you can post the letter without any stamps,0,8
+749,my sister went to the pond to fetch water,1,9
+749,my sister went to the desert to fetch water,0,9
+165,She returned the book to the library.,1,7
+165,The book returned the girl to the library.,0,8
+1303,I have two necks.,0,4
+1303,I have a neck.,1,4
+1990,Soccer balls are round.,1,4
+1990,American Football balls are round.,0,5
+272,salsa is blue,0,3
+272,salsa is red,1,3
+1669,He buys a new tv every day,0,7
+1669,He watches sports TV every day.,1,6
+1147,Birds make nest everyday in bedroom closets.,0,7
+1147,She put the guest coats in the bedroom closet.,1,9
+471,Snowmobile drivers wear snowsuits to stay warm in the winter time.,1,11
+471,Snowmobiles wear snowsuits to stay warm in the wintertime.,0,9
+685,Something that might happen while bathing is your shirt becomes wet.,0,11
+685,Something that might happen while bathing is your body becomes wet.,1,11
+1423,My boat hauls my truck.,0,5
+1423,My truck can be used for hauling equipment or a boat.,1,11
+1169,A hole will make a boat sink,1,7
+1169,A hole will make a boat float,0,7
+1810,He drove up the stairs to the bedroom,0,8
+1810,He walked up the stairs to the bedroom,1,8
+1835,She put a motorcycle on the table.,0,7
+1835,She put the salad on the table.,1,7
+1050,cats eat dog food,0,4
+1050,cats eat special cat food,1,5
+1495,Film making can be a single job in the summer,0,10
+1495,Film making can be a stressful job in the summer,1,10
+662,He picked up his piano and played a chord,0,9
+662,He picked up his guitar and played a chord,1,9
+951,she puts hot grease into a cup,0,7
+951,she puts water into a cup,1,6
+1166,The recipe takes a variety of herbs for flavor.,1,9
+1166,The pot takes a variety of herbs for flavor.,0,9
+106,Mary won the race yesterday,1,5
+106,Mary won the race tomorrow,0,5
+1272,I watered the orange juice,0,5
+1272,I watered the plants,1,4
+283,Food gets hotter as you leave it out,0,8
+283,Food gets cooler as you leave it out,1,8
+228,I wear my gloves on my feet.,0,7
+228,I wear my gloves on my hands.,1,7
+1974,Amy swam to Texas to see Austin,0,7
+1974,Amy travels to Texas to see Austin,1,7
+1374,Texas is hot in the summer.,1,6
+1374,Texas is snowing in the summer.,0,6
+791,smoking is injurious to health,1,5
+791,smoking is good for health,0,5
+335,They grabbed a dinosaur from the drawer.,0,7
+335,They grabbed a soda from the drawer.,1,7
+35,Hens lay eggs,1,3
+35,Pigs lay eggs,0,3
+1795,sunlight comes from the sun,1,5
+1795,the sun comes from sunlight,0,5
+90,The bike overtake the car,0,5
+90,The red car went by very fast,1,7
+655,The doctor repaired the patient's broken bone.,1,7
+655,The doctor smashed the patient's broken bone.,0,7
+1488,a blue painting hangs on the wall,1,7
+1488,a blue painting is floating in air,0,7
+1578,Lotion is useful for moisturizing your tea.,0,7
+1578,The lotion is useful for moisturizing your skin,1,8
+1049,sitting on the barbed wire is more comfortable than sitting on a stool,0,13
+1049,sitting on a sofa is more comfortable than sitting on a stool,1,12
+466,The whale was found in the forest,0,7
+466,The bear was found in the forest.,1,7
+1149,You must eat lots of fats and sugar to stay healthy.,0,11
+1149,You must exercise to stay healthy.,1,6
+1484,A diet high in sugar is mandatory,0,7
+1484,A diet high in sugar is unhealthy,1,7
+360,the clothes are running away,0,5
+360,the clothes are being washed,1,5
+530,The cheetah washed up on the beach,0,7
+530,The whale washed up on the beach,1,7
+1309,Watching sports is fun for all people,0,7
+1309,Watching sports is fun to some people,1,7
+1751,You only die once,1,4
+1751,You die twice.,0,3
+1624,Broken glasses help you see better.,0,6
+1624,Glasses help you see better,1,5
+222,He answers a call on his banana.,0,7
+222,He answers a call on his cell phone.,1,8
+445,An airplane swims in the water.,0,6
+445,An airplane flies through the air.,1,6
+1109,Elephants are the smallest land mammals.,0,6
+1109,Elephants are the largest land mammals.,1,6
+682,He swam in the water,1,5
+682,He swam in petrol,0,4
+1621,I am a male,1,4
+1621,Men are more intelligent than women,0,6
+383,She throws bananas at caretakers at the zoo all day.,0,10
+383,He eats a banana for breakfast every day.,1,8
+387,My friend started a campfire on the 4th of July.,1,10
+387,People who start fires are pyromaniacs.,0,6
+1922,He put some water into a pool,1,7
+1922,He put a dinosaur into the pool,0,7
+1914,that girl is taller than that boy,1,7
+1914,Girls are taller than boys on average,0,7
+740,Dory moves the desk with her fin.,0,7
+740,Dory moves the desk with her arms.,1,7
+774,he put a piece of plastic on the bread,0,9
+774,he put a piece of cheese on the bread,1,9
+185,People get killed in famines.,1,5
+185,People get fat during famines.,0,5
+1181,A desalination plant in California would contribute to providing more drinkable water for that area.,1,15
+1181,Planting salt in California contributes to providing more drinkable water for that area.,0,13
+1277,my mother cooked the chicken,1,5
+1277,my mother cooked the stone,0,5
+646,You can use a Hospital to sleep while away from home,0,11
+646,You can use a hotel to sleep while away from home,1,11
+1521,MY SISTER PREPARE A SANDWICHES WITH CHALKS.,0,7
+1521,MY SISTER PREPARE A SANDWICHES WITH BREAD,1,7
+72,Puja almost works 12 to 15 hours every day.,1,9
+72,Puja almost works 25 to 30 hours every day.,0,9
+1239,"Due to global warming, the temperature becomes higher",1,8
+1239,Due to global warming the temperature becomes lower,0,8
+1302,He parked his bike in his house,1,7
+1302,He parked his train in his house,0,7
+1894,He waited for his bus at the bus stop,1,9
+1894,He waited for his flight at the bus stop,0,9
+183,Widow is an opening in the wall or roof of a building or vehicle,0,14
+183,Window is an opening in the wall or roof of a building or vehicle,1,14
+666,Children should eat their parents.,0,5
+666,Children should be obedient to their parents.,1,7
+1985,there is some water on the lawn,1,7
+1985,there is some water eating on the lawn,0,8
+759,a man has two hands,1,5
+759,a duck has two hands,0,5
+214,The doctor graduated from medical school,1,6
+214,The doctor failed medical school,0,5
+1284,The elephant is gray.,1,4
+1284,The elephant is pink.,0,4
+1331,She puts clean clothes in the cabinet.,1,7
+1331,She puts dirty clothes in the cabinet,0,7
+629,He borrowed a grinder from the library,0,7
+629,He borrowed a book from the library,1,7
+1119,he added milk to his coffee,1,6
+1119,he added pepper to his coffee,0,6
+144,Dogs have hooves.,0,3
+144,Horses have hooves.,1,3
+316,We communicate with each other by words and gestures,1,9
+316,We don't communicate with each other at all,0,8
+926,he put a hat inside of his head,0,8
+926,he put a hat on top of his head,1,9
+643,He put all plates in the washing machine to clean,0,10
+643,He put all dress in the washing machine to clean,1,10
+1876,You should iron your clothes before you wash them,0,9
+1876,You should iron your clothes after you wash them,1,9
+734,he kept shoe in the fridge,0,6
+734,he kept chocolate in the fridge,1,6
+225,Carol turned on the potato,0,5
+225,Carol turned on the flashlight,1,5
+1307,She got off the bus at the crossroad,1,8
+1307,she got off the cruise ship at the crossroad,0,9
+811,he purchased lime and cement to prepare sandwiches for dinner,0,10
+811,he purchased bread and vegetables to prepare sandwiches for dinner,1,10
+1034,shirts are clothes that people wear,1,6
+1034,shirts are clothes that birds wear,0,6
+139,He wears an umbrella on his head.,0,7
+139,He wears a hat on his head.,1,7
+127,The sun is very cold.,0,5
+127,The sun is very hot.,1,5
+761,he carried a whale in his car,0,7
+761,he carried two people in his car,1,7
+679,He went to fishing in the Jeep to the desert.,0,10
+679,He went for fishing in the boat to the lake.,1,10
+817,the ripe apples taste spicy,0,5
+817,the ripe apples taste sweet,1,5
+1007,the two-years-old baby drove her father daycare,0,7
+1007,the father drove his two-years-old baby to daycare,1,8
+1136,I can drink bleach instead of water,0,7
+1136,I can't drink bleach instead of water,1,7
+1339,She went for a run on the trail.,1,8
+1339,She went for a run on the Sun.,0,8
+384,the park is a nice place to jog,1,8
+384,the room is a nice place to jog,0,8
+243,The black owl is red,0,5
+243,The black owl is large,1,5
+1744,"Yesterday, a dinosaur chased me.",0,5
+1744,Dinosaurs are extinct.,1,3
+713,My son placed his football on his dresser.,1,8
+713,My son placed his school locker on his dresser.,0,9
+764,the farmers live on a cloud,0,6
+764,the farmers live on a farm,1,6
+1058,Wallets are typically used to hold cash and credit cards.,1,10
+1058,Wallets are typically used to hold spider eggs and denim.,0,10
+421,Janitors often clean bathrooms for their company,1,7
+421,Janitors create financial models for their company,0,7
+721,She took a live giraffe from the shelf.,0,8
+721,She took a book from the shelf.,1,7
+1926,She put a child into the oven,0,7
+1926,She put a cake into the oven,1,7
+632,She cut down the large oak tree with a chainsaw,1,10
+632,She cut down the grass with a chainsaw,0,8
+921,he ran on the track,1,5
+921,he swam on the track,0,5
+720,This girl made a horrible time-lapse,0,6
+720,This girl made a very nice time-lapse,1,7
+1814,the little girl howled at the wolf,0,7
+1814,A wolf howled at the little girl,1,7
+665,He wrote a book by breaking his pen.,0,8
+665,He wrote a book using his hands.,1,7
+563,I oiled the floors.,0,4
+563,I scrubbed the floors.,1,4
+691,He turned on the TV with the VCR.,0,8
+691,He turned on the TV with the remote.,1,8
+1027,the man put on his airplane,0,6
+1027,the man put on his pants,1,6
+444,The woman dyes her hair every six weeks at the salon.,1,11
+444,The woman dyes her feet every six weeks at the salon.,0,11
+1163,"if you break the law, you will be punished",1,9
+1163,"if you break the law, you will receive a reward",0,10
+390,The Pokemon caught Ash,0,4
+390,Ash caught all the Pokemon,1,5
+788,the person was connected to the mixing console,0,8
+788,the microphone was connected to the mixing console,1,8
+373,I use grass to cut my weed whacker.,0,8
+373,I use a weed whacker to cut my grass.,1,9
+1972,He buy a house.,1,4
+1972,He buy a planet.,0,4
+1198,A person can sleep,1,4
+1198,A fan can sleep,0,4
+1326,one hundred people enter in the car,0,7
+1326,Two people enter in the car,1,6
+1022,I ride a car on the ocean,0,7
+1022,I want to ride a car on the highway,1,9
+579,You can ride the subway in the city.,1,8
+579,You can ride the subway in the country.,0,8
+1786,She put a cat in the cup.,0,7
+1786,She poured juice into the glass.,1,6
+97,He used the mop to clean the carpet.,0,8
+97,He used the vacuum to clean the carpet.,1,8
+1549,the mobile phone can be used to contact with other person,1,11
+1549,the mobile phone is one of the food,0,8
+1082,Houses are found in lakes.,0,5
+1082,Tim painted his house yesterday.,1,5
+1706,A blind man still has many senses,1,7
+1706,A dead man still has many senses,0,7
+56,Put the baby in the driver seat.,0,7
+56,Put the baby in the car seat.,1,7
+673,He uses a computer for data typing work.,1,8
+673,He uses dumbbells for data typing work.,0,7
+794,it is safe to touch liquid nitrogen,0,7
+794,it is dangerous to touch liquid nitrogen,1,7
+403,"The ant stepped on the child, which killed it.",0,9
+403,"The child stepped on the ant, which killed it.",1,9
+614,He opened a can of worms with a can opener.,1,10
+614,He opened a can opener with a can opener.,0,9
+45,James put the babies in the dog house.,0,8
+45,JAMES PUT THE PUPPIES IN THE DOG HOUSE.,1,8
+1029,he put ice in the freezer,1,6
+1029,he put a cat in the freezer,0,7
+1259,The elephant jumped into the car.,0,6
+1259,The dog jumped into the car.,1,6
+1013,crackhead does not take drugs,0,5
+1013,crackhead is a drug addict,1,5
+47,Leena daily eats two bananas which are good for health.,1,10
+47,Leena eats almost 1000 bananas daily as his morning breakfast.,0,10
+527,An electrician wires houses.,1,4
+527,An electrician generates electricity.,0,4
+1698,he was flying to Hawaii,1,5
+1698,he was swimming in Hawaii,0,5
+1006,scissors are used to cut through paper,1,7
+1006,scissors are used to cut through rivers,0,7
+1847,A sandwich eats me.,0,4
+1847,I ate a nice sandwich.,1,5
+1110,Daniel performed woefully behind others because he's the most intelligent and brilliant in his class,0,15
+1110,Daniel aced his examination papers ahead of others because he's the most intelligent and brilliant in the class.,1,18
+1868,The Management People were happy hearing the Protest news,0,9
+1868,The workers protested against the management People,1,7
+1796,She put a lipstick in her pocket.,1,7
+1796,She put a pig in her pocket.,0,7
+1960,The cow went to college to study art.,0,8
+1960,The man went to college to study art.,1,8
+1514,Asia is part of Dubai,0,5
+1514,Dubai is located in Asia,1,5
+604,She takes a bath after wearing her running shoes.,0,9
+604,She takes bath after removing her running shoes.,1,8
+1612,A FISH LIVES IN WATER,1,5
+1612,A FISH WALKS IN THE STREET,0,6
+102,surveys have been known to harm children,0,7
+102,surveys are great to make quick money,1,7
+513,Women are usually larger than men.,0,6
+513,Men are usually larger than women.,1,6
+248,a ball is for dancing at,1,6
+248,dinner is for dancing at,0,5
+193,The carpenters only uses the best wood.,1,7
+193,The best wood is made out of metal.,0,8
+1622,Roses are blue and violets are red,0,7
+1622,Roses are red and violets are blue,1,7
+1475,Australia is known for its unique animals like the kangaroo.,1,10
+1475,The kangaroos are common to every continent.,0,7
+920,paramedics just arrived at the accident scene to rescue the victims,1,11
+920,dancers just arrived at the accident scene to rescue the victims,0,11
+1927,He made a turkey sandwich.,1,5
+1927,Sandwich made a turkey.,0,4
+52,My father can take a high jump up to 200m.,0,10
+52,My father can take a high jump up to 2m.,1,10
+1585,Heaven is nice,1,3
+1585,Heaven is horrible,0,3
+1607,She went to the museum last weekend.,1,7
+1607,She went to the museum next weekend.,0,7
+1060,I had dinner with my friends yesterday.,1,7
+1060,I was on date with lion yesterday.,0,7
+1739,My mom always cuts my sister's hair.,1,7
+1739,My mom always cuts my fish's hair.,0,7
+250,It is OK to take hot things out of the oven without using an oven mitten.,0,16
+250,You should never take anything hot out of the oven without an oven mitten.,1,14
+1852,He put the key in the lock.,1,7
+1852,He put a pony in the lock.,0,7
+576,Banks lend money without any interest,0,6
+576,Banks lend money on interest,1,5
+705,He drinks milk in breakfast,1,5
+705,He drinks white glue in breakfast,0,6
+945,Peter is sleeping towards the bus stop,0,7
+945,Peter is running towards the bus stop,1,7
+613,The principal scolded the teachers.,1,5
+613,The teachers scolded the principal.,0,5
+1793,He put on a shirt.,1,5
+1793,He put on a bike.,0,5
+324,She put the papers into the filing cabinet.,1,8
+324,She put the filing cabinet into the papers.,0,8
+339,My bird is about forty feet tall.,0,7
+339,My bird is about a foot tall.,1,7
+1229,No one drinks milk because you cannot absorb nutrients from it.,0,11
+1229,Many people drink milk to get nutrients from it.,1,9
+650,He cut the onion with a knife,1,7
+650,He cut the onion with a spoon,0,7
+1506,The man who flies a plane is called a conductor.,0,10
+1506,The man who flies a plane is called the captain.,1,10
+333,He is wearing gloves on his hands.,1,7
+333,He is wearing gloves on his feet.,0,7
+6,Grizzly bears hate honey.,0,4
+6,Grizzly bears love honey.,1,4
+1449,He left the cat in the kennel.,0,7
+1449,He left the dog in the kennel.,1,7
+1419,Traveling by teleporting can take quite a long time.,0,9
+1419,Traveling on foot can take quite a long time.,1,9
+15,The scorpion has claws and a stinger on its tail.,1,10
+15,The frog has claws and a stinger on its tail.,0,10
+1584,peoples use a handkerchief for eyes while the bike rides,0,10
+1584,peoples use cooling glass for eyes while the bike rides,1,10
+1630,Thanksgiving is in November.,1,4
+1630,Thanks for giving days starts the new year,0,8
+611,The lamp fell off the counter,1,6
+611,The counter fell off the lamp,0,6
+1432,He can cook a whole elephant in a frying pan,0,10
+1432,He can cook a whole chicken in a frying pan,1,10
+1293,Rocks may float when placed in water.,0,7
+1293,Rocks sink when placed in water.,1,6
+429,he likes to drink cold coffee,1,6
+429,he likes to drink motor oil,0,6
+1942,The bowling ball is swimming in the pond.,0,8
+1942,The big fish are swimming in the pond.,1,8
+252,He put bricks in the oven for baking,0,8
+252,He put the cake in the oven for baking,1,9
+1001,he kept his prized horse in his pocket and had it taken care by a florist,0,16
+1001,he kept his prized horse in a stable and had it taken care by a professional trainer,1,17
+1569,"It might rain later today,  be sure to grab your breakfast before you leave.",0,14
+1569,"It's might rain later today,  be sure to grab your umbrella before you leave.",1,14
+1885,We do not use the internet in today's generation.,0,9
+1885,Internet is very useful nowadays.,1,5
+1352,There are top hats in the freezer,0,7
+1352,There are steaks in the freezer,1,6
+332,Most people sleep in a shoe.,0,6
+332,Most people sleep in a bed.,1,6
+1536,Many ships are sunk when they enter the bermuda triangle.,1,10
+1536,Many ships are sunk when they enter Canada.,0,8
+1442,the fish is fishing,0,4
+1442,he is fishing,1,3
+1510,He put water in a cup,1,6
+1510,He put the basketball inside a cup,0,7
+606,The last thing you do when you leave the home is to lock the door.,1,15
+606,The last thing you do when you leave the home is curling your hair.,0,14
+1781,She washed the dish in the sink.,1,7
+1781,She washed the car in the sink.,0,7
+901,the baby held the teddy bear,1,6
+901,the baby held a grizzly bear,0,6
+402,She hung a post-it note on her pin-board using a push pin,1,12
+402,She hung a post-it note on her pin-board using a cockroach,0,11
+1311,"It was an August morning when Jessica,  a receptionist living in Toronto,  decided to wear her snowsuit to work.",0,19
+1311,"It was an August morning when Jessica,  a receptionist living in Toronto,  decided to wear her linen suit to work.",1,20
+279,He flew the airplane to Jupiter,0,6
+279,He flew the airplane to Europe,1,6
+1891,The sky is blue,1,4
+1891,The sky is underground,0,4
+1472,Its cooler in Arizona than anywhere in the USA.,0,9
+1472,The temperature in Arizona is hotter than Michigan,1,8
+53,A graphics tablet enables VR games to be played on a computer,0,12
+53,A graphics tablet enables sketching on computer,1,7
+10,My sister visited art museum with her boyfriend,1,8
+10,My sister visited art museum with her zebra,0,8
+1892,the library has only one storybook,0,6
+1892,there are many books in the library,1,7
+880,Jack lost his giraffe,0,4
+880,Jack lost his wallet,1,4
+1070,"Dogs can come in many different colors such as red, blue, and green.",0,13
+1070,"Dogs can come in many different sizes and colors, these are called breeds.",1,13
+420,She put an ice cream in the oven.,0,8
+420,She put an ice cream in the freezer.,1,8
+1741,TORTOISE RUNS FASTER THAN CAT,0,5
+1741,CAT RUNS FASTER THAN TORTOISE,1,5
+1301,He put a motorcycle in his wallet,0,7
+1301,He put a coin in his wallet,1,7
+1917,Video games are fun,1,4
+1917,Video games are not fun,0,5
+219,She was drinking from a cup,1,6
+219,She was drinking from a plate,0,6
+1204,My car is going to the church service,0,8
+1204,My car is going to be fixed,1,7
+1230,She was interviewed after she got the offer,0,8
+1230,She was interviewed before she got the offer,1,8
+1179,"if he is retarded,  he will pass the examination",0,9
+1179,"if he is brilliant,  he will pass the examination",1,9
+960,we drove our car for 40 miles before having to stop for an oil refill,1,15
+960,we drove our car for 40000 miles before having to stop for an oil refill,0,15
+615,The woman had her hair cut at the hair salon.,1,10
+615,The woman had her hair cut at the hardware store.,0,10
+1165,You are likely to find Rice bags in shoe shops,0,10
+1165,You are likely to find sandals in a shoe shop,1,10
+24,She came off walking across the Pacific ocean,0,8
+24,She came off sailing across the Pacific ocean,1,8
+273,A rainbow is a meteorological phenomenon,1,6
+273,A rainbow can appear on the ground,0,7
+1428,Sheep do not fly,1,4
+1428,Birds do not fly,0,4
+862,she threw the football to the batter,0,7
+862,she threw the softball to the batter,1,7
+1830,You are unlikely to ever find a book in the library.,0,11
+1830,You are likely to find a book in a library.,1,10
+1409,He likes to eat pizza.,1,5
+1409,He put a snake on pizza.,0,6
+1993,I sliced the strong meat with my Kitchen spoon.,0,9
+1993,I sliced the strong meat with my Kitchen Knife.,1,9
+622,The giraffe likes to ride  bicycle,0,6
+622,The little boy likes to ride bicycle,1,7
+607,She started a fire in the fireplace.,1,7
+607,She started a fire in the fridge.,0,7
+588,School is where animals go to dance,0,7
+588,School is where students go to study,1,7
+1344,Drinking beers makes the girl become an alien,0,8
+1344,Drinking beers makes the girl drunk,1,6
+990,if you want to have a pee then you should go to the toilet,1,14
+990,if you want to have a pear then you should go to the toilet,0,14
+1323,Colgate is a brand of beer,0,6
+1323,Colgate is a brand of toothpaste,1,6
+315,She made a clown make a shirt,0,7
+315,She made a shirt for a clown,1,7
+28,"For Lunch, I made an armadillo sandwich for my husband.",0,10
+28,"For lunch, I made a turkey sandwich for my husband.",1,10
+347,I wore pants to work.,1,5
+347,I wore a notebook to work.,0,6
+408,A new cars are expensive.,1,5
+408,An old car is expensive.,0,5
+756,"if you want fresh fruits and vegetables, you should grow them",1,11
+756,"if you want fresh fruits and vegetables, you should destroy them",0,11
+1677,I want a clean house,1,5
+1677,I want a dirty house,0,5
+1877,Cheetahs can run faster than cats,1,6
+1877,Cat runs faster than a cheetah,0,6
+462,Many mammals have fingerprints.,1,4
+462,All mammals have fingerprints.,0,4
+630,"If it had rained, you would have gotten wet",1,9
+630,"If it is a sunny day, you would have gotten wet",0,11
+846,she ran toward the dangerous-looking man in the alley,0,9
+846,she ran away from the dangerous-looking man in the alley,1,10
+1115,Me and Bob played cards last night.,1,7
+1115,Cats played cards last night.,0,5
+1880,Leafs are useless,0,3
+1880,Leafs help plants absorb nutrition,1,5
+1018,some people's favorite place is the zoo,1,7
+1018,you can go swimming and fishing at a zoo,0,9
+584,Elephants life at the north-pole.,0,5
+584,Tigers live in the jungle.,1,5
+917,I decided to pack my microwave into my suitcase,0,9
+917,I am currently packing for my vacation,1,7
+1934,Doctors do not have to study too much,0,8
+1934,"To become a doctor, it is important to study the course medicine",1,12
+1127,A brave dog saved a drowning child this morning at Zion Beach!,1,12
+1127,A brave cat saved a drowning child this morning at Zion Beach!,0,12
+1908,He put a giraffe in the pantry.,0,7
+1908,He put a can of beans in the pantry.,1,9
+1502,"It was very hot,  so she put on her swimsuit and then ran and jumped into the pool.",1,18
+1502,"It was very hot,  so she put on her snowsuit and then ran and jumped into the pool.",0,18
+1818,I close my eyes to drive safely,0,7
+1818,I drive my car safely by following traffic rules,1,9
+180,my boyfriend drinks orange juice after breakfast every day,1,9
+180,my boyfriend drinks diesel after breakfast every day,0,8
+621,I and the goats had a nice barbecue yesterday,0,9
+621,I and John had a barbecue yesterday,1,7
+1173,There are whales in a big city,0,7
+1173,There are buildings in a big city,1,7
+805,she put the ice cream in the oven,0,8
+805,she put the ice cream in the freezer,1,8
+1811,The vegetarian ate a big dinner of fruits and vegetables from the garden.,1,13
+1811,The vegetarian ate a big dinner of horse meat and vegetables from the garden.,0,14
+256,London goes in this bus.,0,5
+256,This bus may go to London.,1,6
+617,Alcoholic drinks are often served at parties,1,7
+617,Alcoholic drinks are served in bowls.,0,6
+642,he went up the hill,1,5
+642,he went up a valley,0,5
+816,the fire is warm,1,4
+816,the fire is cold,0,4
+1577,"If you do your job well, you will get paid regardless",1,11
+1577,"If you do your job badly, you will get paid regardless",0,11
+1265,You are likely to find chocolate in the wild.,0,9
+1265,You are likely to find a crocodile in the wild.,1,10
+787,an air-condition is used to cool the room,1,8
+787,a bulb is used to cool the room,0,8
+374,I just invest 1 million in mutual funds.,1,8
+374,I just deposited ten tigers in the banks and will get doubled in six years.,0,15
+548,Going to the movies is fun for the whole family.,1,10
+548,Going to the movie is fun for animals.,0,8
+1106,My neighbor is a fish.,0,5
+1106,Fish live in the ocean.,1,5
+232,A man walked from his home to the grocery store.,1,10
+232,A man walked from his home to the moon.,0,9
+1170,people often use alarms to remind them of important events,1,10
+1170,people often use flowers to remind them of important events,0,10
+1940,The girl saw the red car.,1,6
+1940,The blind girl saw the red car.,0,7
+589,Apples can only be found in orchards.,0,7
+589,Apples are found in orchards around the world.,1,8
+1498,a turkey is a pig,0,5
+1498,a turkey is a bird,1,5
+1387,Sound is always faster than light,0,6
+1387,Sound is faster than people,1,5
+1730,The woman eats a wooden sandwich.,0,6
+1730,The woman eats tuna sandwich.,1,5
+343,She throws a feather in the hat.,1,7
+343,She throws a stove in the hat.,0,7
+767,the neighbor park their car in the middle of the street,0,11
+767,the neighbor park their car in the parking lot,1,9
+852,I put many elevators in the car,0,7
+852,I put many suitcases in the car,1,7
+1834,The man at the beach.,0,5
+1834,The man ate food on the beach.,1,7
+1097,Humans do not eat food.,0,5
+1097,Humans eat food.,1,3
+1654,It is beautiful to stay hydrated,0,6
+1654,It is important to stay hydrated,1,6
+1725,She used a match to make the campfire.,1,8
+1725,She used water to make the campfire.,0,7
+1003,cars are the only way to get around,0,8
+1003,cars are a useful mode of transportation,1,7
+1920,The soccer player kicked a football into the goal.,0,9
+1920,A pitcher throws a baseball,1,5
+1462,The groom threw the bride's garter to the groomsmen.,1,9
+1462,The groom threw the bridal party at the bride,0,9
+1044,fishing nets are useful for covering a window,0,8
+1044,curtains are useful for covering a window,1,7
+1733,The house shoved him,0,4
+1733,He shoved the girl,1,4
+499,You will probably find a front room in a condominium.,1,10
+499,You will probably find a front condo in a room.,0,10
+858,The book club did not accept members under the age of forty,1,12
+858,The primary school did not accept members under the age of forty,0,12
+251,The farm is in carpet,0,5
+251,The farm is in Kansas,1,5
+1133,Billy kicked the ball into the goal,1,7
+1133,Billy kicked the frisbee into the goal,0,7
+765,she bought two cinema tickets,1,5
+765,she bought two supermarket tickets,0,5
+1507,HE PUT A CHICKEN IN THE OVEN,1,7
+1507,HE PUT A CUPBOARD IN THE OVEN,0,7
+1970,the boy fed the fish with a ball,0,8
+1970,the boy fed the fish with fish food,1,8
+706,she keeps milk inside the fridge.,1,6
+706,she keeps the camel inside the fridge.,0,7
+1833,The boy kicked the house.,0,5
+1833,The boy kicked the ball.,1,5
+1493,Spatulas are great for both hiking and fishing.,0,8
+1493,Spatulas are great for both cooking and baking.,1,8
+964,the red color is one of the simplest colors,1,9
+964,"there are only 3 colors, red, yellow and blue",0,9
+687,my brother today speak to me,1,6
+687,my brother speaks to the house,0,6
+1523,He put a pillow on the bed,1,7
+1523,he put an airplane on the bed,0,7
+1460,I hike on surfboards.,0,4
+1460,I hike on trails.,1,4
+406,He was in the backyard in Minnesota grilling some burgers.,1,10
+406,He was in the backyard in Minnesota growing some burgers.,0,10
+562,Smartphone is a device used for communication,1,7
+562,Smartphone is a device used for transportation,0,7
+1855,He dried himself with a train ticket,0,7
+1855,He dried himself with a towel,1,6
+1067,Milk contains alcohol.,0,3
+1067,Beer contains alcohol.,1,3
+708,Books are piglets with flowers in their hair,0,8
+708,Books are pages with ink printed on them,1,8
+18,She strictly does not allow food into her house,0,9
+18,She strictly does not allow alcohol into her house,1,9
+442,My uncle surfs on the weekends.,1,6
+442,My uncle runs over the waters on weekends.,0,8
+677,A fish was walking on the roadside,0,7
+677,A cat was walking on the roadside,1,7
+207,Pens are for writing,1,4
+207,Pens are for painting,0,4
+1746,"After driving for fifteen minutes, he turned on the ignition.",0,10
+1746,He turned on the ignition and drove fast for the next fifteen minutes.,1,13
+153,A television is something that you watch daily.,1,8
+153,A television is something that you seat on daily.,0,9
+411,He took the giraffe to the store,0,7
+411,He took the fruit basket to the store,1,8
+134,She turned in her homework five years after it was due and got full credit,0,15
+134,She turned in her homework before it was due and got full credit,1,13
+1513,she put a horse in the washing machine,0,8
+1513,she put her cloths in the washing machine,1,8
+1503,Basketball is played within two teams,1,6
+1503,Basketball is played with pianos,0,5
+1752,He closed the blinds because it was too bright,1,9
+1752,He closed the blinds because it was too dark,0,9
+430,Plants need sunlight.,1,3
+430,Plants need motor oil.,0,4
+1933,He put a shark into the fridge.,0,7
+1933,He put the chicken on the fridge.,1,7
+1378,she went to buy a toothbrush at a petty shop,1,10
+1378,she went to buy a toothbrush at a flower shop,0,10
+1433,The cat drank milk on the plate.,1,7
+1433,The cat drank milk in the duck.,0,7
+1209,Reading to your children can make them smarter,1,8
+1209,Reading to your children can make them stronger,0,8
+1369,She put her shoes on the stove in the morning.,0,10
+1369,She put her shoes on in the morning.,1,8
+498,She taught Spanish to her lilac bush.,0,7
+498,She taught Spanish to her children.,1,6
+517,He placed the table on top of the pencil,0,9
+517,He placed the pencil on top of the table.,1,9
+1286,moms love their children,1,4
+1286,grandparents don't love their children,0,5
+709,Her mom braided her hair for school.,1,7
+709,Her mom messed up her daughter's hair.,0,7
+443,My window speaks very well.,0,5
+443,My cockatoo speaks very well.,1,5
+1935,Jumping is very important.,0,4
+1935,Reading is very important,1,4
+1346,The kid took her mother to the school,0,8
+1346,The mother took her kid to the school,1,8
+1384,Hats can protect you from an accident,0,7
+1384,Hats can protect from harsh sunlight.,1,6
+1223,he hit the ball over the flag,1,7
+1223,he hit a helicopter over the flag,0,7
+269,I eat rocks every day for lunch.,0,7
+269,I eat a banana every day for lunch.,1,8
+356,The lizard climbed a rock.,1,5
+356,The lizard climbed the ocean.,0,5
+1314,A grapefruit is bigger than a pumpkin.,0,7
+1314,A grapefruit is bigger than an orange.,1,7
+823,it snows in winter,1,4
+823,it snows in summer,0,4
+210,I was doing my laundry at the library.,0,8
+210,I was reading a book at the library.,1,8
+739,The snake feeds on the mice that come through the alleys,1,11
+739,The snake sleeps on the mice that come through the alleys,0,11
+595,Friends talk to each other,1,5
+595,Friends have to talk to each other every day,0,9
+482,Stepping through the window is the usual way to enter a room.,0,12
+482,Stepping through the door is the usual way to enter a room.,1,12
+1453,"""When she said """"Go to the store"" she meant the plane had arrived.""",0,13
+1453,"When he said Go down the stairs"" he meant the stairs on the right.""",1,14
+266,He broke his leg and went to get a burger,0,10
+266,He broke his leg and had to get a cast,1,10
+1382,People take showers when they feel happy.,0,7
+1382,People take showers when they feel dirty.,1,7
+1101,Ripping a paper in half creates two pieces.,1,8
+1101,Ripping a paper in half creates six pieces.,0,8
+1518,He cut the lawn with his scissors.,0,7
+1518,He cut the lawn with his power mower.,1,8
+141,Dogs require aluminum to survive.,0,5
+141,Dogs require food to survive.,1,5
+552,He combed a bookshelf because it is hairy.,0,8
+552,He combed a bookshelf looking for a book.,1,8
+1631,He put turkey in oven,1,5
+1631,There is a man in the oven,0,7
+140,The car can go the speed of 200MPH,1,8
+140,The car can go the speed of light,0,8
+1080,He put stone into the fridge.,0,6
+1080,He put apple into the fridge.,1,6
+1214,books are used to watch a movie,0,7
+1214,books are used to read and write,1,7
+460,Micheal swam across the pool,1,5
+460,Michael swam across the Pacific Ocean,0,6
+1036,dinosaurs are alive on earth,0,5
+1036,human are alive on earth,1,5
+379,I like to drink coffee beans in the morning,0,9
+379,I like to drink coffee in the morning,1,8
+1019,he put a chair in the basket,0,7
+1019,he put pepper in the basket,1,6
+1315,I put my clothes in the washing machine,1,8
+1315,I put a dumpling in the washing machine,0,8
+334,Elephant uses its trunk to drink water,1,7
+334,Horse uses its trunk to drink water,0,7
+731,my brother always takes mud in the morning,0,8
+731,my brother always has breakfast in the morning,1,8
+715,My roommate waters his cell phone every morning.,0,8
+715,My roommate waters his flowers every morning.,1,7
+375,My dog is laying on the ceiling.,0,7
+375,My dog is laying on the floor.,1,7
+419,A dog can cut down a tree.,0,7
+419,A dog can pee on a tree.,1,7
+842,we go to the disco to dance every weekend,1,9
+842,we go to the disco to pray every weekend,0,9
+1159,I picked up a basket full of apples from the tree in the yard.,1,14
+1159,I picked up a basket full of peppers from the tree in the yard.,0,14
+1221,Joe asked Mary to have a date because he dislikes her,0,11
+1221,Joe asked Mary to have a date because he likes her,1,11
+1404,people like to dress well,1,5
+1404,people like to dress nothing on the street,0,8
+641,he bought the bike from the bookstore,0,7
+641,He bought the book from the bookstore,1,7
+32,The kids went to the farm,1,6
+32,The farm went to the farm,0,6
+1591,You don't need to read,0,5
+1591,Reading is important,1,3
+1129,My dad grew tomatoes in his garden.,1,7
+1129,My dad grew volleyballs in his garden.,0,7
+1666,i stand up in the theater,0,6
+1666,i sit down in the theater,1,6
+1638,John Legend is a very good singer.,1,7
+1638,Every good singer is a member of the family of John Legend,0,12
+554,My sister eats an entire watermelon,1,6
+554,My sister eats a pair of scissors,0,7
+224,the chicken laid an egg,1,5
+224,the horse laid an egg,0,5
+304,The angered chocolate bar is noisy,0,6
+304,The angered kitten is noisy,1,5
+600,Chronic pain can affect a person's mood.,1,7
+600,Chronic pain is usually caused by a person's mood.,0,9
+216,Pianos have fires inside of them,0,6
+216,Pianos have strings inside of them,1,6
+278,He took his dog to the park.,1,7
+278,He took his house to the park 2 blocks away,0,10
+66,Many cancer patients lose their hand because of chemotherapy,0,9
+66,Many cancer patients lose their hair because of chemotherapy,1,9
+1164,you are supposed to buy tickets before you get on the train,1,12
+1164,you are supposed to buy tickets after you get off the train,0,12
+1684,The sky is green.,0,4
+1684,The sky is above us,1,5
+1905,honesty should be encouraged,1,4
+1905,honesty should be banned,0,4
+138,she likes to sing loudly at the mall,1,8
+138,she likes to sing loudly at work,0,7
+1988,The whale swam in the sky,0,6
+1988,The whale swam in the ocean,1,6
+1587,The man was tired of shoveling snow every winter.,1,9
+1587,The man was tired of shoveling marbles every winter.,0,9
+1783,The teacher was teaching English in the classroom,1,8
+1783,the teacher was harvesting wheat in the classroom,0,8
+1360,You are likely to find a dog in a kennel,1,10
+1360,You are likely to find a cow in a kennel,0,10
+1455,The cat used the litter box,1,6
+1455,The lion used the litter box,0,6
+302,She sat in the chair,1,5
+302,She read the chair a book,0,6
+768,shields can protect ancient warriors from harm,1,7
+768,shields can't protect ancient warriors from harm,0,7
+13,Cigarette is good for healthy,0,5
+13,Cereal is good for healthy,1,5
+1107,Dogs have four legs.,1,4
+1107,Human have four legs.,0,4
+1807,Birds were heard barking at night,0,6
+1807,Birds were heard singing at night,1,6
+695,He melted the TV onto the bread.,0,7
+695,He melted the cheese onto the bread.,1,7
+1000,The turtle swam in the ocean,1,6
+1000,the turtle swam on the land,0,6
+1653,The fish ran through the forest,0,6
+1653,The fox ran through the forest,1,6
+1064,Starfish are marine animals.,1,4
+1064,Starfish are found in outer space,0,6
+1237,Canvas is used for serving food,0,6
+1237,Canvas is used for painting,1,5
+984,he made dinner on the television,0,6
+984,he made dinner on the stove,1,6
+671,India backs Mars government,0,4
+671,India backs Sri Lankan government,1,5
+1691,Hot Dogs are the most popular food item in America.,0,10
+1691,Hot Dogs are the most popular food items at baseball games.,1,11
+370,HE WAS GOING TO RESTAURANT AFTER ACCIDENT,0,7
+370,HE WAS GOING TO HOSPITAL AFTER ACCIDENT,1,7
+1463,the bread is much sweeter than candy,0,7
+1463,Candy is much sweeter than bread,1,6
+1426,many girls like the color pink,1,6
+1426,Girls only like the color pink.,0,6
+16,He inserts his thumb into the car Ignition switch.,0,9
+16,He inserts the keys into the car Ignition switch.,1,9
+798,hair gel is to be applied onto the scalp,1,9
+798,hair gel is to be applied onto the back,0,9
+1537,My glasses help me see,1,5
+1537,My glasses help me smell,0,5
+1954,People use cars for transportation.,1,5
+1954,People use cars to fly.,0,5
+1527,Babies cry in their sleep a lot.,0,7
+1527,Babies cry and sleep a lot.,1,6
+577,He drove his boat on the highway,0,7
+577,He drove his car on the highway.,1,7
+840,there are 8 days in a week,0,7
+840,there are 7 days in a week,1,7
+308,Mike ate four sandwiches after running.,1,6
+308,Mike ran four sandwiches.,0,4
+1897,The cow ate the chickens in the pasture.,0,8
+1897,The cow ate the grass in the pasture.,1,8
+220,"When you go out for a jog, you are participating in the activity of jogging.",1,15
+220,"When you go out to a baseball game, you are participating in the activity of baseball.",0,16
+1663,i use my dog to play cricket,0,7
+1663,i use the bat to play cricket,1,7
+337,Bats can fly perfectly.,1,4
+337,Bats can ride bicycles.,0,4
+1979,Water can be hot or cold.,1,6
+1979,Water can only be cold.,0,5
+124,There are lots of fish in the sea.,1,8
+124,There are lots of fish in the sky.,0,8
+457,the ice cream stays cold in the freeze,1,8
+457,the ice cream stays cold in the microwave,0,8
+1338,Most people sit quietly on the bus,1,7
+1338,every people sit quietly on a bus,0,7
+661,he gave his dresses to wash in the laundry room,1,10
+661,he gave his dresses to wash in the study room,0,10
+1185,Fruits and vegetables provide toxins,0,5
+1185,Fruits and vegetables provide nutrients,1,5
+1968,mailmen deliver mail,1,3
+1968,mailmen deliver babies,0,3
+1319,Tutors can help you learn,1,5
+1319,Fish can help you learn,0,5
+651,They write their exam by a water bottle.,0,8
+651,They write their exam by pen,1,6
+1815,When people are hungry they drink water and do not eat food.,0,12
+1815,People eat food when they are hungry.,1,7
+1599,he kept the ice cream in the oven,0,8
+1599,he kept the ice cream in the fridge,1,8
+1827,people usually walk forward,1,4
+1827,people usually walk backward,0,4
+1258,Insects eat men,0,3
+1258,Insects eat insects,1,3
+323,An ant is a type of insect.,1,7
+323,All insects are ants.,0,4
+818,bananas grow on trees,1,4
+818,bananas grow on the ground,0,5
+177,athletes are slow,0,3
+177,athletes are fast,1,3
+583,He smokes Cigarettes in his house.,1,6
+583,He smokes Cigarettes in a gas station.,0,7
+1567,Canada is a country in Antarctica,0,6
+1567,Canada is a country in North America,1,7
+1108,Sara bought a new pet.,1,5
+1108,The dog bought a new pet.,0,6
+658,dogs are very social animals who prefer life in a pack to a solitary existence,1,15
+658,dogs are very social animals who prefer a solitary existence to live in a pack,0,15
+1726,donkeys walk on two legs,0,5
+1726,donkeys walk on four legs,1,5
+1705,To get to the top of the building you may use an elevator,1,13
+1705,To get to the top of the building you must use an elevator,0,13
+93,orange juice tastes like orange,1,5
+93,Water tastes like orange juice,0,5
+342,the briefcase is stored in some documents,0,7
+342,a briefcase can be used for storing documents,1,8
+1878,Children love to play the game.,1,6
+1878,Children do not like playtime,0,5
+330,Arguments are to be avoided.,1,5
+330,Arguments are something to be striven for.,0,7
+1824,A sharp object can tear your trousers if you come in contact with it.,1,14
+1824,A ball can tear your trousers if you come in contact with it.,0,13
+733,The public library has lots of books,1,7
+733,The public library has lots of fish and birds,0,9
+199,Popsicles are frozen treats,1,4
+199,Popsicles are made of cotton,0,5
+815,you should pull on the brake to stop your bike,1,10
+815,you should pull on the brake to accelerate your bike,0,10
+1099,The snake plays basketball.,0,4
+1099,Derek plays basketball for a team.,1,6
+542,Something you find under a desk is the floor.,1,9
+542,Something you find under a desk is the ceiling fan.,0,10
+1568,Dogs eat cats,0,3
+1568,Dogs and cats can live together,1,6
+181,He washed the sky,0,4
+181,He washed the dishes,1,4
+1773,He planted a plant in the jar.,1,7
+1773,He planted a chair in the jar.,0,7
+812,studying at university is a form of education,1,8
+812,walking to university is a form of education,0,8
+940,the doctor sent the prescription pills by e-mail,0,8
+940,the doctor sent the prescription by e-mail,1,7
+922,ham is made from a pig,1,6
+922,ham is made from a cat,0,6
+736,One morning I shot an elephant in my pajamas,0,9
+736,One morning I shot a fly in my pajamas,1,9
+9,She inserts her finger in the lock,0,7
+9,She inserts the key in the lock.,1,7
+459,The dog pounced on the rabbit,1,6
+459,The cat pounced on the rabbit,0,6
+284,I rescued my dog from the shelter.,1,7
+284,I rescued my goldfish from the shelter.,0,7
+1991,He ate an entire zebra for lunch.,0,7
+1991,The zebra ate its lunch.,1,5
+1780,She put sunglasses on her face.,1,6
+1780,She put a ram in her face.,0,7
+1349,The frog ate a tiger,0,5
+1349,The tiger ate a frog,1,5
+1439,The cat likes to watch alligators.,0,6
+1439,The cat likes to watch birds.,1,6
+681,John can kick the ball with his hands,0,8
+681,John can kick the ball with his foot,1,8
+1288,playing in rain increases the chances to get caught by police,0,11
+1288,playing in rain increases the chances to get the fever,1,10
+1112,The woman's purse was floating above her.,0,7
+1112,The woman's hung purse off her shoulder.,1,7
+393,The best car is the spaceships.,0,6
+393,a famous car brand is Ford.,1,6
+208,Eat an apple a day and keep the doctor away,1,10
+208,Eating an apple a day will invite the diseases,0,9
+1324,Dirty dishes go into the dishwasher,1,6
+1324,The dishwasher makes dishes dirty,0,5
+405,He punched a hamburger for lunch,0,6
+405,He ate a hamburger for lunch,1,6
+1614,It's important to do your homework to get good grades,1,10
+1614,It's important to skip school to get good grades,0,9
+1688,Every country has a president,1,5
+1688,"To be the president of the country, you have to win the vote",0,13
+1660,I want ice cream so I buy it,1,8
+1660,I want ice cream so I buy an elephant,0,9
+1667,my android mobile installs games from play store,1,8
+1667,my android mobile installs games from the app store,0,9
+867,a person with no legs accidentally kicked me in the subway,0,11
+867,a person with no legs accidentally hit me in the subway,1,11
+1424,A Carpet-layer can lay carpet on floors,1,7
+1424,A dog lays carpet on the floor,0,7
+1228,Jim went to watch a movie at the gym,0,9
+1228,Jim went to watch a movie at the theater,1,9
+948,he learned with his refrigerator before the exam,0,8
+948,he learned with his textbooks before the exam,1,8
+1864,The world has the same time zones,0,7
+1864,There are different time zones around the world.,1,8
+735,Some people like to put a scarf around their necks.,1,10
+735,Some people like to put a scarf around their ears.,0,10
+1674,"IF you need water, get it from the sink.",1,9
+1674,"If you need water, get it from the oven.",0,9
+581,She checked the bucket for the time,0,7
+581,She turned around to check the time,1,7
+1394,Skyscrapers are very tall buildings.,1,5
+1394,Skyscrapers can cause rips in the sky.,0,7
+1450,Chairs are large and heavy machines.,0,6
+1450,Cars are large and heavy machines.,1,6
+1496,HE EATS THE PIANO.,0,4
+1496,HE PLAYS WITH PIANO.,1,4
+1468,After sunset sky turns dark,1,5
+1468,After sunset sky turns blue,0,5
+1469,The carpenter Chopped the Woods,1,5
+1469,The Carpenter Chopped the Train,0,5
+1798,Sally taught her students English,1,5
+1798,Sally taught her students burglary,0,5
+201,She takes the clothes from the washing machine.,1,8
+201,He takes the house from the washing machine.,0,8
+1290,A couple sat on a rock to watch the sunset.,1,10
+1290,A couple sat on the water to watch the sunset.,0,10
+107,The watermelon ate the kids,0,5
+107,The kids ate watermelon,1,4
+674,I use cotton to make big mussels body,0,8
+674,I use dumbbells to make big mussels body,1,8
+889,plastic bags can be recycled,1,5
+889,plastic bags are non-recyclable,0,4
+381,He parks his car in the closet.,0,7
+381,He parks his car in the garage.,1,7
+295,A liquid becomes a solid when it reaches boiling point,0,10
+295,A liquid becomes a gas when it reaches boiling point,1,10
+385,My brother is sick when he travels.,1,7
+385,My brother travels when he's sick.,0,6
+63,a printer makes vehicle oil,0,5
+63,a printer makes prints,1,4
+1913,he put a woman in his car,1,7
+1913,he put a whale in the car,0,7
+1195,The chicken fights the dog.,1,5
+1195,The fish fights the dog.,0,5
+1966,he was television at his brother,0,6
+1966,he was angry at his brother,1,6
+656,The two lions went to the movies,0,7
+656,My girlfriend and I went to the movies,1,8
+158,Halloween night is the most ordinary night of the year,0,10
+158,Halloween night is the spookiest night of the year,1,9
+81,Eagles are a type of fish,0,6
+81,Eagles are a kind of bird,1,6
+1822,Water drinks people,0,3
+1822,I drink water,1,3
+217,I play catch with a baseball,1,6
+217,I play catch with a boat,0,6
+1906,things come in dreams may not happen in real life,1,10
+1906,everything comes in dreams happens in real life,0,8
+1984,I take the submarine to work every day.,0,8
+1984,I take the train to work every day.,1,8
+152,My TV is floating in mid-air,0,6
+152,My TV is on a black desk,1,7
+1904,The outcome of getting in line is waiting.,1,8
+1904,The outcome of cutting in line is waiting.,0,8
+1579,people should study less to get a higher grade in exams,0,11
+1579,People should study more to get a higher grade in exams,1,11
+1696,The supermarket only sells cars,0,5
+1696,I shop at the supermarket,1,5
+213,blueberries are red,0,3
+213,blueberries are blue,1,3
+1370,He went to the theater for a medical checkup,0,9
+1370,He went to the theater to watch a movie,1,9
+394,the stove helps to cool down the house,0,8
+394,the air-conditioning helps to cool down the house,1,8
+1482,Heating food makes the food balance better on a fork.,0,10
+1482,Heating food makes the flavors more enhanced.,1,7
+969,plants convert sugar to a light,0,6
+969,plants convert light to sugar,1,5
+98,She put the contact lens into her mouth,0,8
+98,She put the contact lens into her eye,1,8
+565,he was dancing on the lake,0,6
+565,he was dancing on the floor,1,6
+89,If you sleep for 8 hours you will feel rested,1,10
+89,If you run a marathon for 26 miles you will feel rested,0,12
+307,I walked to McDonald to eat lunch.,1,7
+307,I walked to the sand factory to eat lunch.,0,9
+959,moisturizer is good to keep in your pocket or purse for when you have cracked and dry skin,1,18
+959,lipstick is good to keep in your pocket or purse for when you have cracked and dry skin,0,18
+981,my friend runs marathons after dinner every day,0,8
+981,my friend jogs around the block after dinner every day,1,10
+910,a one-month-old baby put the laundry in the dryer,0,9
+910,mother put the laundry in the dryer,1,7
+78,Owls are used to brighten a room.,0,7
+78,Lamps are used to brighten a room.,1,7
+1861,He put plum on the plate.,1,6
+1861,He put a helicopter on the plate.,0,7
+506,I went to bed because I was tired.,1,8
+506,I went to the bathroom because I was tired.,0,9
+1459,Journals can help people in forgetting important events.,0,8
+1459,Journals can help people in remembering important events.,1,8
+1467,All enzymes are proteins.,1,4
+1467,All proteins are enzymes.,0,4
+67,The fire will cool you if you touch it.,0,9
+67,The fire will burn you if you touch it.,1,9
+194,My neighbor went to the doctor because she has a sore throat.,1,12
+194,My neighbor has a sore throat so she took her car to the garage.,0,14
+903,the baby spilled milk on the floor,1,7
+903,the bird spilled milk on the floor,0,7
+1605,Sunlight grows in plants.,0,4
+1605,Plants grow in sunlight.,1,4
+246,The boy ate some ice cream.,1,6
+246,The boy ate a bush.,0,5
+1336,"The taxpayer is being taxed to death,  while the rich become richer",1,12
+1336,The rich pay the same taxes as the poor.,0,9
+1548,The man ate the salad when he was hungry.,1,9
+1548,The man ate the bowl when he was hungry.,0,9
+837,some people ride tigers to work,0,6
+837,some people ride bikes to work,1,6
+200,Joe got a parking ticket because he drives too fast.,0,10
+200,Joe got a speeding ticket because he drives too fast.,1,10
+1440,Sarah's favorite food is lobster.,1,5
+1440,Sarah put a shark in the lobster.,0,7
+1837,he put both his legs into his trousers,1,8
+1837,he put all three of his legs into the trousers,0,10
+1967,he sent me a text message from his ashtray,0,9
+1967,he sent me a text message from his smartphone,1,9
+178,John plays football on a field.,1,6
+178,John plays football in outer space.,0,6
+693,I like the film so I keep watching it,1,9
+693,I hate the film so I keep watching it,0,9
+1559,Exercising is healthy,1,3
+1559,Exercising is not healthy,0,4
+1973,She read the interesting book for fun,1,7
+1973,She read the interesting book for dinner.,0,7
+1777,He put the child in the chair.,1,7
+1777,He put a truck in the chair.,0,7
+559,Kids like to sleep with grizzly bears.,0,7
+559,Kids like to sleep with teddy bears.,1,7
+1996,today my hand is very clear to see the world,0,10
+1996,today my eye is very clear to see the world,1,10
+1125,I brushed my hair with a wrecking ball.,0,8
+1125,I brushed my hair with a hairbrush.,1,7
+417,Christmas eve is the most ordinary night of the year,0,10
+417,Christmas eve is the spookiest night of the year,1,9
+861,the boat sailed on the open sea,1,7
+861,the boat flew in the air,0,6
+863,a flower petal is part of a motor vehicle,0,9
+863,a clutch pedal is part of a motor vehicle,1,9
+1672,the mouse ate the cat,0,5
+1672,the cat ate the mouse,1,5
+537,My brother adopted a cat from a shelter,1,8
+537,My brother adopter a tiger from a shelter,0,8
+745,Streaming movies is the newest trend,1,6
+745,Renting movies is the newest trend,0,6
+344,She brought a microwave to bed.,0,6
+344,She brought a book to bed.,1,6
+939,he cut the grass with a shovel,0,7
+939,he cut the grass with the lawnmower,1,7
+1825,A rock can fly in the sky.,0,7
+1825,A bird can fly in the sky.,1,7
+699,I would like to fry a PS4,0,7
+699,I would like to buy a PS4,1,7
+635,"When people cry, tears come out of their eyes",1,9
+635,"When people cry, tears come out of their ears",0,9
+488,A dog can live in an aquarium.,0,7
+488,A shark can live in an aquarium.,1,7
+40,Birds live in a house,0,5
+40,Birds live in nests,1,4
+398,At day people can see many stars.,0,7
+398,At night people can see many stars.,1,7
+1723,Some people will not die,0,5
+1723,All people will die,1,4
+111,If you want to buy presents for others then you should figure out what you want,0,16
+111,If you want to buy presents for others then you should figure out what they want,1,16
+989,she used motor oil to wash her hair,0,8
+989,she used shampoo to wash her hair,1,7
+440,The rug is bleeding,0,4
+440,he is bleeding,1,3
+1184,Mike went to the grocery store three blocks away by plane,0,11
+1184,Mike went to the grocery store three blocks away by bike,1,11
+1318,"When you are outside,  you will be sweating.",0,8
+1318,You may sweat when it is hot outside.,1,8
+479,Snowmen are cold.,1,3
+479,Snowmen are liquid.,0,3
+265,I hate racists.,1,3
+265,Everyone hates racists.,0,3
+1719,Pollutants cause pollution,1,3
+1719,Trees cause a lot of pollution,0,6
+1422,The baseball team scored 4 home runs.,1,7
+1422,The pitcher threw a ball at 200 MPH.,0,8
+1648,My brother is awarded a silver medal when he wins the race.,0,12
+1648,My brother is awarded a gold medal when he wins the race.,1,12
+991,the fan was blowing air,1,5
+991,the fan was blowing guns,0,5
+1220,If you want to have a party then you should invite things,0,12
+1220,If you want to have a party then you should invite guests,1,12
+235,I swam to the lowest point of the ocean in one breath,0,12
+235,I swam to the lowest point of the pool in one breath,1,12
+41,Something you need to do before you grow vegetables is fertilizing the ground,1,13
+41,Something you need to do before you grow vegetables is filling the ground with cement,0,15
+306,Orange juice is green.,0,4
+306,Orange juice is orange.,1,4
+1555,Boats float on the road,0,5
+1555,Boats float on the river,1,5
+857,"every time I go to the shops, I buy a dog",0,11
+857,"every time I go to the shops, I buy something",1,10
+974,the baseball pitcher hit a home run during the pitch,0,10
+974,the baseball pitcher hit a bird during the pitch,1,9
+77,He bought groceries at the store.,1,6
+77,He bought groceries at the zoo.,0,6
+92,A group of people seated at bed for a meal,0,10
+92,A group of people seated at the table for a meal,1,11
+1111,Sleeping with makeup on nourishes your skin and makes it healthier.,0,11
+1111,Sleeping with makeup off is very good for your skin's health.,1,11
+619,My dog barked when I came home.,1,7
+619,My dog purred when I came home.,0,7
+1907,Sally taught mathematics for ninety years since she was 30,0,10
+1907,Sally taught mathematics for nine years since she was 30,1,10
+1295,she put a pie in the fridge,1,7
+1295,she put a rhino in the fridge,0,7
+539,He jumped through the happiness,0,5
+539,He jumped through the window,1,5
+1646,Math is very useful these days,1,6
+1646,Math is not useful these days,0,6
+1883,Apples are usually green,1,4
+1883,People are usually green,0,4
+1642,Orange juice is made of oranges,1,6
+1642,Orange juice is made of apples,0,6
+1196,A car engine is usually cooler before driving the car.,1,10
+1196,A car engine is usually cooler after driving the car.,0,10
+1233,The train left the station on time,1,7
+1233,The train waited for a passenger for an hour,0,9
+766,my mother switch on the television to watch movie,1,9
+766,my mother switch on the radio to watch movie,0,9
+170,"Toothbrush is a small brush with a long handle, used for cleaning the teeth",1,14
+170,"Toothbrush is a small brush with a long handle, used for cleaning the car",0,14
+263,Books are educational.,1,3
+263,Empty books are educational.,0,4
+115,Each day someone gets younger.,0,5
+115,Each day someone gets older.,1,5
+1337,A runner tries to go a long distance by controlling breath and pace.,1,13
+1337,Runny eggs can last best by leaving them out in the sun.,0,12
+1030,beepers are becoming even more popular,0,6
+1030,smartphones are becoming even more popular,1,6
+1947,He took his goldfish for a walk,0,7
+1947,He took his dog for a walk,1,7
+1289,"When you close a door,  it can be walked through.",0,10
+1289,"When you open a door,  it usually has hinges to keep it from falling off.",1,15
+737,She purchased four supermarket tickets.,0,5
+737,She purchased four thether tickets.,1,5
+264,If you want to go for a jog then you should start singing,0,13
+264,If you want to go for a jog then you should start jogging.,1,13
+1033,he drove to the moon before it closed at 9pm,0,10
+1033,he drove to the store before it closed at 9pm,1,10
+91,"a rock is a bouncy, round object made of rubber",0,10
+91,"a ball is a bouncy, round object made of rubber",1,10
+410,She went to the bathroom to urinate in the toilet.,1,10
+410,She continued watching TV as she urinated in her pants.,0,10
+1351,He left his car at a service center for oil change,1,11
+1351,He left his dog at a service center for an oil change,0,12
+932,my brother always play football in a swimming tank,0,9
+932,my brother is a big fan of football,1,8
+1253,Plants don't need the sunlight to grow.,0,7
+1253,Plants need sunlight to grow.,1,5
+944,"any dog breed can be taught a trick, playing dead is a trick",1,13
+944,any dead dog can learn how to do a trick with his breed,0,13
+364,Please turn off the lights? It is shinny,1,8
+364,Please turn on the lights? It is shinny,0,8
+161,She drove eloquently into the sky.,0,6
+161,She danced eloquently into the night.,1,6
+942,elephants eat grass and leaves,1,5
+942,elephants eat rabbits and rats,0,5
+1412,Jane loves to eat fresh vegetables.,1,6
+1412,Jane put a shark on her vegetable.,0,7
+1083,Malls are found in the sky.,0,6
+1083,Shawn went to the mall yesterday.,1,6
+1901,Blue is a color,1,4
+1901,Turkey is a color,0,4
+702,She's a yogurt now and doesn't do anything fun,0,9
+702,She's a yogi now and doesn't do anything fun,1,9
+218,Paper comes from tears cried by the planet,0,8
+218,Paper comes from trees,1,4
+574,He ate an interesting book.,0,5
+574,He read an interesting book.,1,5
+184,You are likely to find zebras in an office building,0,10
+184,You are likely to find office space in an office building,1,11
+276,Pitchers throw the ball from the pitcher's mound to the plate.,1,11
+276,Outfielders catch the ball from pitchers.,0,6
+409,He fed the dog kibble.,1,5
+409,He fed the dog eucalyptus leaves.,0,6
+531,plastic can be transparent,1,4
+531,Plastic is not reusable,0,4
+1856,a boy rides a bike,1,5
+1856,a donkey rides a bike,0,5
+986,the sun rises in the west,0,6
+986,the sun rises in the east,1,6
+994,kids often start speaking when they twelve months old,1,9
+994,kids do not learn how to speak until they learn to walk,0,12
+1611,I cooked the chicken in the refrigerator.,0,7
+1611,I cooked the chicken in the oven last night.,1,9
+1871,she likes to sit on babies from time to time,0,10
+1871,she likes to babysit from time to time,1,8
+191,The assistant entered the purchase order into the company system.,1,10
+191,The order entered a system by the assistant.,0,8
+1418,Volcanoes produce snowballs when they erupt.,0,6
+1418,Volcanoes create lava which is created through high heat temperature.,1,10
+365,Joey likes to eat poison,0,5
+365,Joey likes to eat fruits,1,5
+1075,The dog was clean after playing in the mud.,0,9
+1075,The dog got dirty when she played in the mud.,1,10
+1024,Garry washed his clothes yesterday,1,5
+1024,humans use gas to wash their clothes,0,7
+245,Knives hurt children.,1,3
+245,Knives heal children.,0,3
+1283,There is a car engine on an airplane,0,8
+1283,A car runs on roads,1,5
+529,Racism is over,0,3
+529,Racism is hurtful,1,3
+1093,I took notes during class.,1,5
+1093,I took home the gold during class.,0,7
+905,at night it's easy to find the moon,1,8
+905,at night it's easy to find sun,0,7
+899,He returned five books to the library,1,7
+899,He returned five octopus to the library,0,7
+832,snakes can eat rats,1,4
+832,rats can eat snakes,0,4
+1120,she wants to drink some water because she is thirsty,1,10
+1120,she wants to drink some water because she is full,0,10
+1939,I bought a car in the book store,0,8
+1939,I bought a history book in the book store,1,9
+1043,people behave badly if they are angry,1,7
+1043,people behave softly if they are angry,0,7
+883,all films are real life,0,5
+883,a scene is part of a film,1,7
+1757,I have both a car and a bike,1,8
+1757,my car is smaller than my bike,0,7
+1287,He played a game with children,1,6
+1287,He played a game with fairies,0,6
+1114,"If it had rained, you would got wet.",1,8
+1114,"If it is a sunny day, you would got wet.",0,10
+8,ice hockey is a sport,1,5
+8,ice hockey is a financial institution,0,6
+1945,He put water without a container in the freezer for 24 hours,0,12
+1945,He put a watermelon in the freezer for 24 hours,1,10
+1053,The desert has sand that you can drink.,0,8
+1053,"The desert is very dry, so bring water when you go.",1,11
+1123,My friend runs for 2 inches every day.,0,8
+1123,My friend runs for 2 miles every day.,1,8

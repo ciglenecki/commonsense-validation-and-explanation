@@ -1,9 +1,11 @@
 import argparse
+import random
 from functools import partial
 from pathlib import Path
 
-import pandas as pd
+import nlpaug.augmenter.word as naw
 import numpy as np
+import pandas as pd
 import torch
 import yaml
 from datasets import Dataset, DatasetDict
@@ -26,9 +28,6 @@ from transformers import (
 from src.functions import get_timestamp, random_codeword, stdout_to_file, to_yaml
 from src.train_args import parse_args
 
-import nlpaug.augmenter.word as naw
-import random
-
 
 def softmax(pred):
     row_max = np.max(pred[0], axis=1, keepdims=True)
@@ -46,7 +45,7 @@ def compute_metrics(pred):
         "f1": f1_score(x, y),
         "precision": precision_score(x, y),
         "recall": recall_score(x, y),
-        "roc_auc": roc_auc_score(x, y),
+        # "roc_auc": roc_auc_score(x, y),
     }
 
 
@@ -110,7 +109,11 @@ def perform_dataset_augmentation(threshold, dataset):
 
     def perform_sentence_augmentation(sentence):
         percentage = random.random()
-        return naw.RandomWordAug(action="swap").augment(sentence) if percentage > threshold else [sentence]
+        return (
+            naw.RandomWordAug(action="swap").augment(sentence)
+            if percentage > threshold
+            else [sentence]
+        )
 
     dataset_pd["sentence"] = dataset_pd["sentence"].apply(perform_sentence_augmentation)
     dataset_pd["sentence"] = dataset_pd["sentence"].apply(lambda x: x[0])
@@ -155,7 +158,9 @@ def main():
     data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
     dataset = get_hf_dataset(args)
 
-    dataset["train"] = perform_dataset_augmentation(args.augmentation_threshold, dataset["train"])
+    dataset["train"] = perform_dataset_augmentation(
+        args.augmentation_threshold, dataset["train"]
+    )
 
     tokenized_dataset = dataset.map(
         partial(dataset_preprocess, tokenizer=tokenizer), batched=True
