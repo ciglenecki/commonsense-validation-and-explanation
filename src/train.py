@@ -125,6 +125,8 @@ def main():
         use_fast=True,
     )
 
+    print(tokenizer("Tset my sentence haha"))
+
     data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
     dataset = get_hf_dataset(args)
 
