@@ -134,6 +134,11 @@ def parse_args():
         type=str,
         default=DEFAULT_OPTIM,
     )
+    parser.add_argument(
+        "--freeze-bert",
+        action="store_true",
+        default=False,
+    )
 
     args = parser.parse_args()
 

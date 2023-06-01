@@ -16,6 +16,7 @@ from transformers import (
     AutoModelForSequenceClassification,
     AutoTokenizer,
     DataCollatorWithPadding,
+    DebertaV2ForTokenClassification,
     DebertaV2Model,
     Trainer,
     TrainingArguments,
@@ -136,12 +137,17 @@ def main():
         partial(dataset_preprocess, tokenizer=tokenizer), batched=True
     )
 
-    model = AutoModelForSequenceClassification.from_pretrained(
-        args.pretrained_tag,
-        num_labels=args.num_labels,
-        problem_type=args.problem_type,
-        state_dict=None,
+    model: DebertaV2ForTokenClassification = (
+        AutoModelForSequenceClassification.from_pretrained(
+            args.pretrained_tag,
+            num_labels=args.num_labels,
+            problem_type=args.problem_type,
+            state_dict=None,
+        )
     )
+    if args.freeze_bert:
+        for param in model.deberta.parameters():
+            param.requires_grad = False
 
     trainer = Trainer(
         model=model,
