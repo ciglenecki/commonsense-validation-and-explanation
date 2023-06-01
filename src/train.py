@@ -41,13 +41,17 @@ def softmax(pred):
 def compute_metrics(pred):
     x = torch.argmax(torch.tensor(softmax(pred)), dim=1).numpy()
     y = pred[1].reshape(-1)
-    return {
+    dict = {
         "accuracy": accuracy_score(x, y),
         "f1": f1_score(x, y, labels=[0, 1]),
         "precision": precision_score(x, y, labels=[0, 1]),
         "recall": recall_score(x, y, labels=[0, 1]),
-        "roc_auc": roc_auc_score(x, y, labels=[0, 1]),
     }
+    try:
+        dict["roc_auc"] = (roc_auc_score(x, y, labels=[0, 1]),)
+    except ValueError:
+        pass
+    return
 
 
 def dataset_preprocess(examples, tokenizer: AutoTokenizer):
