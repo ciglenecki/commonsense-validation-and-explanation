@@ -48,7 +48,7 @@ def compute_metrics(pred):
         "recall": recall_score(x, y, labels=[0, 1]),
     }
     try:
-        dict["roc_auc"] = (roc_auc_score(x, y, labels=[0, 1]),)
+        dict["roc_auc"] = roc_auc_score(x, y, labels=[0, 1])
     except ValueError:
         pass
     return
