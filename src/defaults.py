@@ -3,7 +3,7 @@ from pathlib import Path
 from src.enums import SupportedLossFunctions, SupportedModels
 
 # ========== PATHS ==========
-PATH_DATA = Path("data")
+PATH_DATA = Path("../data")
 
 PATH_TRAIN_A = Path(PATH_DATA, "subtaskA_train_data_20000.csv")
 PATH_TEST_A = Path(PATH_DATA, "subtaskA_test_data_2000.csv")
@@ -33,3 +33,6 @@ DEFAULT_PRETRAINED_TAG_MAP = {
     SupportedModels.DEBERTA_V3_SMALL.value: DEBERTA_V3_SMALL_TAG,
 }
 DEFAULT_PROBLEM_TYPE = "single_label_classification"
+
+DEFAULT_AUGMENTATION_THRESHOLD = 0.5
+DEFAULT_WARMUP_RATIO = 0.1

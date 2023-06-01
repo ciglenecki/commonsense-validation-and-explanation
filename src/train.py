@@ -1,8 +1,12 @@
 import argparse
+import random
 from functools import partial
 from pathlib import Path
 
+import nlpaug.augmenter.word as naw
+import numpy as np
 import pandas as pd
+import torch
 import yaml
 from datasets import Dataset, DatasetDict
 from sklearn.metrics import (
@@ -26,9 +30,17 @@ from src.functions import get_timestamp, random_codeword, stdout_to_file, to_yam
 from src.train_args import parse_args
 
 
+def softmax(pred):
+    row_max = np.max(pred[0], axis=1, keepdims=True)
+    e_x = np.exp(pred[0] - row_max)
+    row_sum = np.sum(e_x, axis=1, keepdims=True)
+    f_x = e_x / row_sum
+    return f_x
+
+
 def compute_metrics(pred):
-    print(pred)
-    x, y = pred[0].reshape(-1), pred[1].reshape(-1)
+    x = torch.argmax(torch.tensor(softmax(pred)), dim=1).numpy()
+    y = pred[1].reshape(-1)
     return {
         "accuracy": accuracy_score(x, y),
         "f1": f1_score(x, y, labels=[0, 1]),
@@ -93,10 +105,32 @@ def get_hf_dataset(args: argparse.Namespace):
     return dataset
 
 
+def perform_dataset_augmentation(threshold, dataset):
+    dataset_pd = Dataset.to_pandas(dataset)
+
+    def perform_sentence_augmentation(sentence):
+        percentage = random.random()
+        return (
+            naw.RandomWordAug(action="swap").augment(sentence)
+            if percentage > threshold
+            else [sentence]
+        )
+
+    dataset_pd["sentence"] = dataset_pd["sentence"].apply(perform_sentence_augmentation)
+    dataset_pd["sentence"] = dataset_pd["sentence"].apply(lambda x: x[0])
+    dataset_pd.head()
+    return Dataset.from_pandas(dataset_pd)
+
+
 def main():
     args = parse_args()
 
     experiment_name, experiment_dir, output_dir = experiment_setup(args)
+
+    tokenizer = AutoTokenizer.from_pretrained(
+        args.pretrained_tag,
+        use_fast=True,
+    )
 
     training_args = TrainingArguments(
         output_dir=experiment_dir,
@@ -113,6 +147,7 @@ def main():
         save_strategy="steps",
         save_steps=2000,
         load_best_model_at_end=True,
+        save_total_limit=2,
         fp16=args.use_fp16,
         report_to="tensorboard",
         gradient_accumulation_steps=args.grad_acc,
@@ -123,15 +158,12 @@ def main():
         greater_is_better=args.metric_mode,
     )
 
-    tokenizer = AutoTokenizer.from_pretrained(
-        args.pretrained_tag,
-        use_fast=True,
-    )
-
-    print(tokenizer("Tset my sentence haha"))
-
     data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
     dataset = get_hf_dataset(args)
+
+    dataset["train"] = perform_dataset_augmentation(
+        args.augmentation_threshold, dataset["train"]
+    )
 
     tokenized_dataset = dataset.map(
         partial(dataset_preprocess, tokenizer=tokenizer), batched=True
@@ -144,7 +176,8 @@ def main():
             problem_type=args.problem_type,
             state_dict=None,
         )
-    )
+    ).to(0)
+
     if args.freeze_bert:
         for param in model.deberta.parameters():
             param.requires_grad = False
