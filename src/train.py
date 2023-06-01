@@ -30,10 +30,10 @@ def compute_metrics(pred):
     x, y = pred[0].reshape(-1), pred[1].reshape(-1)
     return {
         "accuracy": accuracy_score(x, y),
-        "f1": f1_score(x, y),
-        "precision": precision_score(x, y),
-        "recall": recall_score(x, y),
-        "roc_auc": roc_auc_score(x, y),
+        "f1": f1_score(x, y, labels=[0, 1]),
+        "precision": precision_score(x, y, labels=[0, 1]),
+        "recall": recall_score(x, y, labels=[0, 1]),
+        "roc_auc": roc_auc_score(x, y, labels=[0, 1]),
     }
 
 
@@ -106,15 +106,17 @@ def main():
         num_train_epochs=args.num_epochs,
         weight_decay=args.weight_decay,
         optim=args.optim,
-        metric_for_best_model=f"val_{args.metric}",
-        evaluation_strategy="epoch",
-        save_strategy="epoch",
+        metric_for_best_model=f"eval_{args.metric}",
+        evaluation_strategy="steps",
+        eval_steps=1000,
+        save_strategy="steps",
+        save_steps=2000,
         load_best_model_at_end=True,
         fp16=args.use_fp16,
         report_to="tensorboard",
         gradient_accumulation_steps=args.grad_acc,
-        logging_steps=True,
-        warmup_ratio=0.1,
+        logging_steps=20,
+        warmup_ratio=args.warmup_ratio,
         logging_first_step=True,
         logging_dir=experiment_dir,
         greater_is_better=args.metric_mode,
@@ -153,6 +155,7 @@ def main():
 
     print("Training model")
     trainer.train()
+    trainer.save_model(experiment_dir)
 
 
 if __name__ == "__main__":
