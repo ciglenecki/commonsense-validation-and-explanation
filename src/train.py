@@ -26,7 +26,9 @@ from transformers import (
     Trainer,
     TrainingArguments,
 )
-
+from pathlib import Path
+import sys
+sys.path.append('./')
 from src.functions import get_timestamp, random_codeword, stdout_to_file, to_yaml
 from src.train_args import parse_args
 
@@ -195,8 +197,10 @@ def main():
     else:
         aug == None
 
+    transformation = lambda batch : perform_batch_augmentation(args.augmentation_threshold, aug, batch)
+
     if aug is not None:
-        dataset["train"].set_transform(perform_batch_augmentation(args.augmentation_threshold, aug))
+        dataset["train"].set_transform(transformation)
 
 
     tokenized_dataset = dataset.map(

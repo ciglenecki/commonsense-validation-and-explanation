@@ -3,6 +3,7 @@ from pathlib import Path
 
 from src.defaults import (
     DEFAULT_AUGMENTATION_THRESHOLD,
+    DEFAULT_AUGMENTER,
     DEFAULT_GRAD_ACCUM_STEPS,
     DEFAULT_LOSS_FN,
     DEFAULT_LR,
@@ -145,6 +146,11 @@ def parse_args():
         "--augmentation_threshold",
         type=float,
         default=DEFAULT_AUGMENTATION_THRESHOLD,
+    )
+    parser.add_argument(
+        "--augmenter",
+        type=str,
+        default=DEFAULT_AUGMENTER,
     )
     parser.add_argument(
         "--warmup_ratio",
