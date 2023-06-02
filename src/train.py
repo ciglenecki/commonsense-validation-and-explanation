@@ -26,9 +26,7 @@ from transformers import (
     Trainer,
     TrainingArguments,
 )
-from pathlib import Path
-import sys
-sys.path.append('./')
+
 from src.functions import get_timestamp, random_codeword, stdout_to_file, to_yaml
 from src.train_args import parse_args
 
