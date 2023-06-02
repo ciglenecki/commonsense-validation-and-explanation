@@ -8,6 +8,7 @@ import numpy as np
 import pandas as pd
 import torch
 import yaml
+import os
 from datasets import Dataset, DatasetDict
 from sklearn.metrics import (
     accuracy_score,
@@ -125,7 +126,21 @@ def perform_dataset_augmentation(threshold, dataset):
     dataset_pd.head()
     return Dataset.from_pandas(dataset_pd)
 
+def perform_batch_augmentation(threshold, augmenter, batch):
+     
+     def perform_sentence_augmentation(example):
+        if example["labels"] == 0: return example["sentence"]
+        percentage = random.random()
+        return (
+            augmenter.augment(example["sentence"])
+            if percentage > threshold
+            else [example["sentence"]]
+        )
+     
+     batch["sentence"] = [perform_sentence_augmentation(example) for example in batch]
+     return batch
 
+             
 def main():
     args = parse_args()
 
@@ -165,9 +180,29 @@ def main():
     data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
     dataset = get_hf_dataset(args)
 
-    dataset["train"] = perform_dataset_augmentation(
-        args.augmentation_threshold, dataset["train"]
-    )
+    ## Augment entire dataset
+    # dataset["train"] = perform_dataset_augmentation(
+    #     args.augmentation_threshold, dataset["train"]
+    # )
+
+    # Augment by batch
+    # Take augmenter type from args
+    rand_aug = naw.RandomWordAug(action="swap") 
+    syn_aug_wordnet = naw.SynonymAug(aug_src='wordnet')
+    syn_aug_ppdb = aug = naw.SynonymAug(aug_src='ppdb', model_path=os.environ.get("MODEL_DIR") + 'ppdb-2.0-s-all')
+
+    if args.augmenter == "rand":
+        aug = rand_aug
+    elif args.augmenter == "syn_wordnet":
+        aug = syn_aug_wordnet
+    elif args.augmenter == "syn_ppdb":
+        aug = syn_aug_ppdb
+    else:
+        aug == None
+
+    if aug is not None:
+        dataset["train"].set_transform(perform_batch_augmentation(args.augmentation_threshold, aug))
+
 
     tokenized_dataset = dataset.map(
         partial(dataset_preprocess, tokenizer=tokenizer), batched=True
