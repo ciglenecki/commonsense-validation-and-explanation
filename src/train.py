@@ -182,17 +182,12 @@ def main():
     # )
 
     # Augment by batch
-    # Take augmenter type from args
-    rand_aug = naw.RandomWordAug(action="swap") 
-    syn_aug_wordnet = naw.SynonymAug(aug_src='wordnet')
-    syn_aug_ppdb = aug = naw.SynonymAug(aug_src='ppdb', model_path=os.environ.get("MODEL_DIR") + 'ppdb-2.0-s-all')
-
     if args.augmenter == "rand":
-        aug = rand_aug
+        aug = naw.RandomWordAug(action="swap") 
     elif args.augmenter == "syn_wordnet":
-        aug = syn_aug_wordnet
+        aug = naw.SynonymAug(aug_src='wordnet')
     elif args.augmenter == "syn_ppdb":
-        aug = syn_aug_ppdb
+        aug = naw.SynonymAug(aug_src='ppdb', model_path=os.environ.get("MODEL_DIR") + 'ppdb-2.0-s-all')
     else:
         aug == None
 
