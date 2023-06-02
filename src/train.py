@@ -126,21 +126,26 @@ def perform_dataset_augmentation(threshold, dataset):
     dataset_pd.head()
     return Dataset.from_pandas(dataset_pd)
 
-def perform_batch_augmentation(threshold, augmenter, batch):
-     
-     def perform_sentence_augmentation(example):
-        if example["labels"] == 0: return example["sentence"]
-        percentage = random.random()
-        return (
-            augmenter.augment(example["sentence"])
-            if percentage > threshold
-            else [example["sentence"]]
-        )
-     
-     batch["sentence"] = [perform_sentence_augmentation(example) for example in batch]
-     return batch
 
-             
+def perform_batch_augmentation(threshold, augmenter, batch):
+    def perform_sentence_augmentation(batch_to_augment):
+        examples = zip(batch_to_augment['sentence'], batch_to_augment['labels'])
+        augmented_sentences = []
+
+        for example in examples:
+            if example[1] == 0:
+                augmented_sentences.append(example[0])
+            else:
+                percentage = random.random()
+                augmented_sentences.append(augmenter.augment(example[0])[0]) if percentage < threshold \
+                    else augmented_sentences.append(example[0])
+
+        return augmented_sentences
+
+    batch["sentence"] = perform_sentence_augmentation(batch)
+    return batch
+
+
 def main():
     args = parse_args()
 
@@ -186,20 +191,18 @@ def main():
     # )
 
     # Augment by batch
+    aug = None
     if args.augmenter == "rand":
-        aug = naw.RandomWordAug(action="swap") 
+        aug = naw.RandomWordAug(action="swap")
     elif args.augmenter == "syn_wordnet":
-        aug = naw.SynonymAug(aug_src='wordnet')
+        aug = naw.ContextualWordEmbsAug(model_path='bert-base-uncased', action="substitute")
     elif args.augmenter == "syn_ppdb":
         aug = naw.SynonymAug(aug_src='ppdb', model_path=os.environ.get("MODEL_DIR") + 'ppdb-2.0-s-all')
-    else:
-        aug == None
 
-    transformation = lambda batch : perform_batch_augmentation(args.augmentation_threshold, aug, batch)
+    transformation = lambda batch: perform_batch_augmentation(args.augmentation_threshold, aug, batch)
 
     if aug is not None:
         dataset["train"].set_transform(transformation)
-
 
     tokenized_dataset = dataset.map(
         partial(dataset_preprocess, tokenizer=tokenizer), batched=True
