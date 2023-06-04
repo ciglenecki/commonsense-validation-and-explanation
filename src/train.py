@@ -1,4 +1,5 @@
 import argparse
+import os
 import random
 from functools import partial
 from pathlib import Path
@@ -39,8 +40,10 @@ def softmax(pred):
 
 
 def compute_metrics(pred):
-    x = torch.argmax(torch.tensor(softmax(pred)), dim=1).numpy()
-    y = pred[1].reshape(-1)
+    #  y_pred_logits, y_true = pred
+    #  y_pred = np.argmax(y_pred_logits, axis=-1)
+    x = torch.argmax(torch.tensor(softmax(pred)), dim=1).numpy()  # y_pred
+    y = pred[1].reshape(-1)  # y_true
     dict = {
         "accuracy": accuracy_score(x, y),
         "f1": f1_score(x, y, labels=[0, 1]),
@@ -51,7 +54,7 @@ def compute_metrics(pred):
         dict["roc_auc"] = roc_auc_score(x, y, labels=[0, 1])
     except ValueError:
         pass
-    return
+    return dict
 
 
 def dataset_preprocess(examples, tokenizer: AutoTokenizer):
@@ -126,6 +129,30 @@ def perform_dataset_augmentation(threshold, dataset):
     return Dataset.from_pandas(dataset_pd)
 
 
+def perform_batch_augmentation(threshold, augmenter, batch):
+    def perform_sentence_augmentation(batch_to_augment):
+        examples = zip(batch_to_augment["sentence"], batch_to_augment["labels"])
+        augmented_sentences = []
+
+        for example in examples:
+            if example[1] == 0:
+                augmented_sentences.append(example[0])
+            else:
+                percentage = random.random()
+                augmented_sentences.append(
+                    augmenter.augment(example[0])[0]
+                ) if percentage < threshold else augmented_sentences.append(example[0])
+
+        return augmented_sentences
+
+    try:
+        batch["sentence"] = perform_sentence_augmentation(batch)
+    except KeyError:
+        return batch
+
+    return batch
+
+
 def main():
     args = parse_args()
 
@@ -147,7 +174,7 @@ def main():
         optim=args.optim,
         metric_for_best_model=f"eval_{args.metric}",
         evaluation_strategy="steps",
-        eval_steps=1000,
+        eval_steps=500,
         save_strategy="steps",
         save_steps=2000,
         load_best_model_at_end=True,
@@ -165,9 +192,30 @@ def main():
     data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
     dataset = get_hf_dataset(args)
 
-    dataset["train"] = perform_dataset_augmentation(
-        args.augmentation_threshold, dataset["train"]
+    # Augment entire dataset
+    # dataset["train"] = perform_dataset_augmentation(
+    #     args.augmentation_threshold, dataset["train"]
+    # )
+
+    # Augment by batch
+    aug = None
+    if args.augmenter == "rand":
+        aug = naw.RandomWordAug(action="swap")
+    elif args.augmenter == "syn_wordnet":
+        aug = naw.ContextualWordEmbsAug(
+            model_path="bert-base-uncased", action="substitute"
+        )
+    elif args.augmenter == "syn_ppdb":
+        aug = naw.SynonymAug(
+            aug_src="ppdb", model_path=os.environ.get("MODEL_DIR") + "ppdb-2.0-s-all"
+        )
+
+    transformation = lambda batch: perform_batch_augmentation(
+        args.augmentation_threshold, aug, batch
     )
+
+    if aug is not None:
+        dataset["train"].set_transform(transformation)
 
     tokenized_dataset = dataset.map(
         partial(dataset_preprocess, tokenizer=tokenizer), batched=True
