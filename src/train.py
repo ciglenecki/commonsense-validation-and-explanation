@@ -51,7 +51,7 @@ def compute_metrics(pred):
         dict["roc_auc"] = roc_auc_score(x, y, labels=[0, 1])
     except ValueError:
         pass
-    return
+    return dict
 
 
 def dataset_preprocess(examples, tokenizer: AutoTokenizer):
@@ -147,7 +147,7 @@ def main():
         optim=args.optim,
         metric_for_best_model=f"eval_{args.metric}",
         evaluation_strategy="steps",
-        eval_steps=1000,
+        eval_steps=500,
         save_strategy="steps",
         save_steps=2000,
         load_best_model_at_end=True,
@@ -165,9 +165,9 @@ def main():
     data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
     dataset = get_hf_dataset(args)
 
-    dataset["train"] = perform_dataset_augmentation(
-        args.augmentation_threshold, dataset["train"]
-    )
+    # dataset["train"] = perform_dataset_augmentation(
+    #     args.augmentation_threshold, dataset["train"]
+    # )
 
     tokenized_dataset = dataset.map(
         partial(dataset_preprocess, tokenizer=tokenizer), batched=True
