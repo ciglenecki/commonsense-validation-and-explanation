@@ -22,6 +22,8 @@ from src.defaults import (
     PATH_MODELS,
     PATH_TEST_A,
     PATH_TRAIN_A,
+    PATH_VALIDATION_A,
+    DEFAULT_FREEZE_BERT,
 )
 from src.enums import SupportedLossFunctions, SupportedModels
 
@@ -64,6 +66,11 @@ def parse_args():
         "--test_csv",
         type=Path,
         default=PATH_TEST_A,
+    )
+    parser.add_argument(
+        "--validation_csv",
+        type=Path,
+        default=PATH_VALIDATION_A,
     )
     parser.add_argument(
         "--experiment_suffix",
@@ -140,7 +147,7 @@ def parse_args():
     parser.add_argument(
         "--freeze-bert",
         action="store_true",
-        default=False,
+        default=DEFAULT_FREEZE_BERT,
     )
     parser.add_argument(
         "--augmentation_threshold",

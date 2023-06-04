@@ -40,8 +40,10 @@ def softmax(pred):
 
 
 def compute_metrics(pred):
-    x = torch.argmax(torch.tensor(softmax(pred)), dim=1).numpy()
-    y = pred[1].reshape(-1)
+    #  y_pred_logits, y_true = pred
+    #  y_pred = np.argmax(y_pred_logits, axis=-1)
+    x = torch.argmax(torch.tensor(softmax(pred)), dim=1).numpy() # y_pred
+    y = pred[1].reshape(-1) # y_true
     dict = {
         "accuracy": accuracy_score(x, y),
         "f1": f1_score(x, y, labels=[0, 1]),
@@ -52,7 +54,7 @@ def compute_metrics(pred):
         dict["roc_auc"] = roc_auc_score(x, y, labels=[0, 1])
     except ValueError:
         pass
-    return
+    return dict
 
 
 def dataset_preprocess(examples, tokenizer: AutoTokenizer):
@@ -142,7 +144,11 @@ def perform_batch_augmentation(threshold, augmenter, batch):
 
         return augmented_sentences
 
-    batch["sentence"] = perform_sentence_augmentation(batch)
+    try:
+        batch["sentence"] = perform_sentence_augmentation(batch)
+    except KeyError:
+        return batch
+
     return batch
 
 
