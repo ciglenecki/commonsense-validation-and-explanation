@@ -1,8 +1,26 @@
-# 🤔 Commonsense Validation and Explanation (ComVE)
+# A Squeeze of LIME, a Pinch of SHAP: Adding the Flavor of Explainability to Sentence-Level Commonsense Validation
 
-Competition website: https://competitions.codalab.org/competitions/21080
+<br>
+<br>
+<br>
 
-Docs notes: https://docs.google.com/document/d/1nUB-Nw2rtMeh8_mq2UHAL_kMZck2WKo8MhI1Jexj5tk/edit
+## Full credit to [Mirta Moslovac](https://github.com/mirtamoslavac), who did most of the heavy lifting for this project. She led the project, performed every analysis, and wrote the majority of the paper.
+
+<br>
+<br>
+<br>
+
+<p align="center">
+<table>
+    <thead>
+        <tr>
+			<th align="right"><a href="A_Squeeze_of_LIME__a_Pinch_of_SHAP__Adding_the_Flavor_of_Explainability_to_Sentence_Level_Commonsense_Validation.pdf">Our paper</a></th>
+            <th align="left"><a href="https://competitions.codalab.org/competitions/21080">Competition website</a></th>
+            <th align="center"><a href="https://docs.google.com/document/d/1nUB-Nw2rtMeh8_mq2UHAL_kMZck2WKo8MhI1Jexj5tk/edit?usp=sharing">Docs notes</a></th>
+        </tr>
+    </thead>
+</table>
+</p>
 
 ## Introduction
 
@@ -85,9 +103,6 @@ To remove pre-commit run: `rm -rf .git/hooks`
 | [references](references/) | research papers and competition guidelines          |
 | [src](src/)               | python source code                                  |
 
-## 📋 Notes
-
-empty for now
 
 ## 🏆 Team members
 

@@ -3,12 +3,12 @@ from pathlib import Path
 from src.enums import SupportedLossFunctions, SupportedModels
 
 # ========== PATHS ==========
-PATH_DATA = Path("..\\data")
+PATH_DATA = Path("data")
 
 PATH_TRAIN_A = Path(PATH_DATA, "subtaskA_train_data_20000.csv")
 PATH_TEST_A = Path(PATH_DATA, "subtaskA_test_data_2000.csv")
 PATH_VALIDATION_A = Path(PATH_DATA, "subtaskA_dev_data_1994.csv")
-PATH_MODELS = Path("..\\models") #Path("models")
+PATH_MODELS = Path("models")  # Path("models")
 
 # ========== DEFAULTS ==========
 
