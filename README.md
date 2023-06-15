@@ -1,4 +1,4 @@
-# A Squeeze of LIME, a Pinch of SHAP: Adding the Flavor of Explainability to Sentence-Level Commonsense Validation
+# 🍋🧂 A Squeeze of LIME, a Pinch of SHAP: Adding the Flavor of Explainability to Sentence-Level Commonsense Validation
 
 <br>
 <br>
@@ -55,7 +55,7 @@ The task is to directly test whether a system can differentiate natural language
 	3. Most of the fridges aren’t large enough to contain an elephant.
 	```
 
-## Setup
+## ⬇️ Setup
 
 ### Python Virtual Environment
 
