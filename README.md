@@ -4,7 +4,7 @@
 <br>
 <br>
 
-## Full credit to [Mirta Moslovac](https://github.com/mirtamoslavac), who did most of the heavy lifting for this project. She led the project, performed every analysis, and wrote the majority of the paper.
+## Full credit to [Mirta Moslavac](https://github.com/mirtamoslavac), who did most of the heavy lifting for this project. She led the project, performed every analysis, and wrote the majority of the paper.
 
 <br>
 <br>
